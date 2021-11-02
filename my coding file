@@ -1,0 +1,1040 @@
+welcome to isaac praise coding file
+in here we started to learn some coding symbols and their significant,<br/> mean break to breaking lines into numbers
+while <p> means paraghrah to put ur texts into paragraph,[note]<p> gives more spacing than <br/>
+after we are done with the paragraph,lets look on how to make make heading on the page in default
+<p>this is paragraph 1</p>
+<p>paragraph 2</p>
+<p>paragraph 3</p>
+<h1>this is the biggest</h1>
+<h2>tomatos</h2>
+<h3>medium</h3>
+<h4>Almost the same size as the test</h4>
+<h5>fizz is my favourite champion</h5>
+<h6>This the smallest</h6>
+IN TUTOTIAL (4) we learning about bold,italic and comment
+<p>this is <strong>paragraph</strong> is for <strong>responsive</strong> texts</p>
+now let see on how to put things in italics,to put something in italics the code is <em></em>
+the next things we going to talk about our horizontal rule.this is how to make a horizontal rule
+<hr>
+the last thing we are going to learn in tutorial {4} is coment,what is coment are words you want your browser to ignore
+nut still note that u can see yourself,for example i don,t like a particular paragraph and i want to live a note for myself about that paragraph,
+i can just go ahead and type it on the body it will shows up on the text,this is how to creat a coment paragraph:<!--check this box they might be a typers-->
+so that is how to make a comment box.
+welcomre to tutorial(5) int this tutorial we are going to learn about list
+they are two kind of list in html and the list have bullet point attarch to them (1)An ulder list.this is how to make an ulder list
+<ul>
+  <li>i need piano and guitter</li>
+    <li> i need a computer mouse</li>
+    <li> i need an internet box to always carryout my tasks</li>
+    <li>i need tutotial vidoes to perfect my skills</li>
+</ul>
+(2)the next list is an order list example:
+<ol>
+    <li>to become agood programer u need to go to programmer creed in toutube</li>
+    <li>watch alot of tutorial</li>
+    <li>pratice and learn fast</li>
+    <li>make reserch on the problem you are facing and over come it</li>
+    <li>pratice with friend or colleauge are in the  same field and share your ideas and esperence</li>
+</ol>
+welcome to tutotial(6) in this tutorial we are going to learn how to link our web page to another pages
+before we can continue with this webpage we need to make another fresh pages,you to make sure the two page 
+are in the folder example:first page 
+<body><h1>home page</h1></body>
+the second page<h1>welcome to my secod page</h1>
+so now we can now go ahead and put a link on our pages now to put a link we need,we have to type in some text
+that wil take us to the next page eg:<p>would u like to go to the second page</p> so we are going to go ahead
+and sourround our text with a link,to put a link this is how to go about it,that where attribute come in,attribute are little bit of extra infomation
+an <a></a> tag sstand for hanger attribute are little bit of extra infmation that the sum html to work,
+ <p><a href="second _page.html" >second page</a></p>,so we have learn how to link to our other page so how about if we want to link it to another web site
+ <a>here search on this great website <a href="http://www.google.com">google</a>
+ welcome to tutorial (7)images
+ the first thing is to actually haave two images and the two image must be in the same file,basically all i need to know 
+ the image name in order to know how to add the image,and if u guys want to be keeping your picture in a diference folder, you have to learn about
+ directary part ,so to input the image tag,it,s a single tag example:<img>we just puting image tag html wil not know
+ what it stands for so we have to put on some attribute that will tell the html what its stands for,the attribute we need to to use is src:it,s stance for 
+ images sources,so when we add up this attribute and the images name and save and run in chrome
+ eg:<img src="isaac.png"/> and run,to put in image dot source is not actually valid it,s not correct,what happen if html can,t find,this image
+ eg:<img src="isaa.png"/> maybe on later was missing and html couldn,t fine it that why we got the second attribute called <alt="isaac.png"> so once the speeling is 
+ correct it wouldn,t border to show the alt atribute,so its not valid to only use a source attribute without alt attribute,we are going to learn two more attribute which is consider as a good practice
+ or use to resize the image in the web page,if an image is too big u add this tag,<img src="isaac.png" alt="isaac.png" width="500" height="300"/>
+ even though we are able the make the images to size our webpage we can still use
+ welcome to tutotial(8)directory structures
+ base on our previous tutorial,so the single kind of folder structure is the single folder structure and that where all the,so do i mean by directary structure am simply talking about the folder structure in your cpmputer
+ so the simplest kind of folder structure, is called the single folder structure and that where everything are been kept together,and everything we are going to use in our webpages,and you guys know when ever i want to refear to another file that in the same folder
+ all i have to do is to type the name,that is we loaded up this image from the previous tuthorial <img src="isaac.png" alt="isaac.png" width="500" height="300"/>,so what happen if i want to start organizing our folder that mean i will be using something call an hirockoe folder structure
+ that mean i need to go ahead and put all this images into a folder,just go ahead and create a folder call image folder,then we can move in all the images folder into the folder,so when runing the file in the chrome the image will not work anymore because hmtm can fine the file anymore,so we need
+ to go back and tell html where to fine the images, since we have move it to images folder,"images/isaac.png,so when we go back to html to click refresh it will bring back our html,thats is call a directary part,so we give chrome the right folder to fine the directary part,so what happen if we want to go 1 folder back and 1 folder up then we got to that at difference ways,
+ lets go back to our folder again, and we are actually really have to go back to tuthorial (6) and we are going to copy the second_page,html and paste it in our folder and we need another folder and after creating it we move our second_page.html in the new folder and run it, so after runing it our images coulding show because chrome coulding fine our image is not that we did anything back but because the image is not in the file with the index.html 1.tml
+  or we didn,t correctly where to look for this time,so html is only looking forthe images/coruptiomn,so if we go back to our folder there is no any document cvcall images in the file so that where html got loss,we n eed to go the the folder call image and go back one folder so we will type in ../images/ashes.jpgs that mean going back one folder,so as we have tell html to go back 1 folder html should be able to fine our images
+  eg  <img src="../images/isaac.png" alt="isaac.png" width="500" height="300"/> so our directary part was correct
+  welcome to tutorial (9)audio tag
+  like i say this new audio tag is new to html 5  because it is in new tags they are some browser that may not support it or if someone is using a browser that is not updated for eg they are using firefox or chrome that have not ben upgraded in alongtime then this tag might not work for them either,so to add an audio tags to ur wedpage u are just going to add in
+  <audion>
+
+  </audio>
+  because this is not enough infmation and we will go ahead and add anotheer tags called, <source> tags and the reason is some browser might not support
+  one tag,then we need to put on multiple source tags,we put on source tags,one for a chrome which support mp3 and another one for fire fox that suport  OGG or somethings like that, and actually most file also suport mp3, so if ur using fire fox or google chrome we should get away by just using mp3 source,but before we get into the atribute
+  i want to just tell you guys that if a user is useing and old browser,this audio tags is not rally ging to work for them or show up,but what we can do is to include a message in between this audio tags to say to the user that they need a update on their browser,so if they are using and updating browsers then the audio tag will show but if they outdating browser then the audion tags will show
+eg <audio>
+      <source
+   </audio>      
+        if you can see this,update your browser,so they dont see this message but if they do they need to update their browser,ok and now we can talk about the atribute that we gonna use to include in here,and the fire one that we are going to use is <src=""> attribute,and we can set this to the audio file we need to use, so we will us e go ahead and type in the audio file name eg.<source src="isaaco bass.mp3"> so this should work for us now so there is another
+        atribute we need to learn and that is the <type=""> and the type is basically telling the browser what audio file they should be expecting or it should be expecting,so because this is mp3 and we know that the browser should be expecting an audio/mpeg file,and the reason why this is like this in a few broswer and u found out that maybe opera or few broswer doesn,t suport an mp3 and you can go ahead and put another tags eg;<source src="isaaco bass.mp3" type="audio/mpeg"/>
+        so if the audio is not working in some browsers u can go ahead and put another tage;<source src="isaaco bass.OGG" type="audio/mpeg"/>  which it doies suport,u have to make sure u dont have only mp3 file but and ogg file too,thats might be alittle bit complicated for you guys,so go back to visual studio code and take that tags out because u we don,t need it now,so there is one or two atribute we need to include in the audio tags eg <audio controls > </audio> so the controls are going to show up in the browser
+       and its might look diferent on diference browsers unless u want to make your control with java scripts then u need to actually specify this contols so that the user will be able to push,play puase and rewarn so let go ahead and save this now,if we refresh this now u will see i now have this little symbol here is we i push play and it will play,ok thats great and then there are two other atribute we need to look at eg <audio controls autoplay loop>, so autoplay basically tells the browser that when a webpage is 
+       finish loading just play the music, and loop is basically telling the browsers when you get to the end of the music just start it all over again,so lets run it in the browsers,so if we remove the contol element from the file we have no way to tell html to play the audio
+       welcome to tutorial(10)video tag
+       and in this video we are going to talk about the new video tag in html 5 again this tag is new to hmtl 5,so they could be some issues regarding some brwsers,so user that are using old broswer might not have suport for this video tag,so keep that in mind when using this video tag
+       so to add avideo tag into the wed page,we are just going to open a <video> tag and it,s a double tag </video> and in between we are going to in another ducument which is known as a <source> tag as u can see it,s just like the way we do when adding up our <audio> tag,in case the user is useing an old broswer that is not suport this video tag, we are have to leave them a message,if we type a message in here,if its work the user will not see it but if did,t the suer will see it; example
+       <video>
+       <source>
+       if you can see this please you need to update your broswer.
+       </video>
+       now that we have gotten all this there are still a view attribute we nned to apply,so the first one is the <src"">attribute,so the source attribute will tell html what video are we playing in this video tag,so i actually got this video here mp4,and i suport you should mp4 because they are wildly use video tags, so we will just go back and type it in,so after typing in the video we have some attribute to type in too;eg <type"video/mp4">type actually mean we tell html what type of video are we using/or expecting
+       because the video is mp4,they are still a view other atribute,that we need to work with;so we are going those up here in the <video> tag,and the first one is going to the width of what we want our video to display with,so youtube actually uses <width="640">,so we use 640 aswell on our video too,<for hight we can set it to,<hight"369">,so that is pretty much as the same size as a normal video on youtube;and then we got one other attribute,which we have to workon at the moment,that is the controll attribute <controls> because without this we can play our video,so lets go ahead and save this and run it in firefox/chrome
+       so without the controls tag we can play the video unless we want to creat our own control and then we need to know alittle bit java scripts,now they are two other atribute that we can use eg:<autoplay loop> and you don't have to be using autoplay and loop for now, untile we learn java scripts,but contols i recoment u use it,Note:if autoplay is not working in your device add mute to it eg:<controls mute loop autoplay> 
+       welcome to tuthorial(11)Intro to css
+       in this tuthorial we are going to start learning css and what is the meaning of css;css can be define as the language we use to make our website look prety,in a normal ways we use css to change the colour of our webpage or add colour to our background colour of our text or element and we also use it to change our background colour and background,images,bolders and all those constitent,lets look on how to use some really basic css and other tuthorial we are really going to learn how to work on css from now on,now they are three main ways to use style sheet on ur webpage with css,let see if we cn
+       (1) and the first method is call inline styling:this mean when you take a styler attribute and you put it with html on ur webpage,so right now we got three tags on our webpage,we got <h1> heading, 2 paragraph <p>,so let see maybe this paragraph can turn blue and the way we do this with inline styling are eg<p> i love blue</p> and we wil apply our specific css rule that rule needs some properties,so the properties we are going to learn is colour ,so the properties is what we want to change  about this element, and there are torns of of element we can change,but for now we know color is one of them,sp we need to put color a property
+       because we want to change the colour to blue and we will go ahead and save it and we will run it in firefox or chrome,<p style="color: blue;">you can see our first paragraph which says i'm blue has turn blue,again lets go ahead and change the other paragraph to blue too and can  alittle bit get missing that mean anything we want to get a paragraph to blue we have to use a style tag and that is css rule can u imagine hw massive it will be,if every of oue style have to use this attribute it is a kind of waste of space,so there is a much much better ways of adding or using css if u want to change multiple element; and that is using something call an internal style sheet
+       so to use an internal style sheet u have to go ahead and put this style tag eg:<style> in the head head of ur web page, open style sheat tag and also end it up,and u sahould probably give this some attribute of 
+      <style type="text/css"> and this is use to be necessary in other html but in html 5 it's not actually necessary as na attribute;now what we need to do we need to use css a litle bite diferently,we are gonna use the properties and the value we talk about before but we also have to use something new this time called a selector and a selector mean hw we tell html,what we are trying to style,so let say i want to style all the paragraph on my webpage,so i can select all the paragraph by the element name
+       example:if we want to style our paragraph <p1> we will just go ahead and type.
+       p{
+
+       }
+so this is where our styling for the paragraph is gonna start and end;so we can go ahead and change of the properties of our page which is colour,note:every css rule have to be ended with a semi column 
+example:p{
+  color="blue";
+}
+we can actually use this for lot of lot of element in css,so in  the next video we are going to learning something call an external style sheet which will help u if u wan to style more than one webpage,then you will just 
+include the external style sheet with one line of code and then u can style all the web page in ur website with one style sheet
+welcome to tuthorial(12) external style sheet
+now we will start by talking about the advantage of using external style sheet in your website,so to do that is to just to talk about what we did in the previous tutoorial the in line css where we use styling inside the tag itself,we have to go ahead and put in the style itself,we have go ahead and put in the  style and put some style attribute here aswell,but i assure you guys this woundn't really be woundn't the best way to use css on ur webpage,because this will only change one element in the webpage that is the elemeent of the style sheet inside the tags,that si internal style sheet,but again an internsl style sheet is not the really the best way to css,just imagine i have 1,2 or 100 wabpages on my website will i be copying this internal styling sheet into all this webpages that will be a waste of time,it,s make it tideious that mean if we have to change something we have to go ahead change in all those webpage
+so it,s more better to use an external style sheet,that is what we are going to learn in this video,so start up we are just going to go ahead and get rid of all those styling we have done before using internal styling sheet,so that ourn webpage can basically remain as it was before. lets gob ahead and make an external style sheet and always style it that way,so we need to open a new file call mian.css and besue to save it in the same file as ur index file,but if u have save it in another file you need to watch is video on direct structure that will show on hw to link ur file that is in a different folder,  for now we just get this blank css fill,so let just go ahead and add some styling sheet on it, i told u before if you want to select all the paraghrah in the webpage we chose p{
+
+} 
+on of the advantageb of using and external style sheet is virtul studio code help us  out with this kind of things paragraph or the p is an element in our webpage so we will ggo ahead and type 
+p{
+  colour:red; 
+}
+  so css really help us out any css properties will turn into cray colour but the one that is not active will remain black as black as normal,so we are not done yet,because we only have css rule but we dont have any special way of telling html that webpage need to look for it,s styling in this folder or filled ok so to do that we will actually use a link in the in the head of our webpage,example<link rel="stylesheet" href="main/"> so that is quiet alsome in deed,so just remember guys when ever u wan to us an external style sheet,don't forget to link to it in the head of ur webpage and also make sure to proper css rule which are all going to learn about in the future,but just to stress this again,whenever u are using a css u are ging to use a selector to tell html what element u want to change,so p for paragraph,h1 for h1 tags etc,and then the second part in this colding css that is the property so what do u want to change about the tag and also
+  what is the value is that u want to change this property to
+  welcome to tutorial(13)front properties
+  in this tutorial i think it,s best we practise our css just a litle bit more and the eay we are going to that is that we are going to work with some font  property,so the font properties  in css that will really allow use to do some really cool stuff so let go ahead and add our paragraph
+<p> the quick red fox jumped over the lazy brown dogs back</p>and that is the sentence we uses in every single alphabet,so now we have to headed this with some css styling,so we go ahead and run in firefox  u can see it,s get printed out qiet defought in time in roman font it,s just not intresting and imaging in every website you went to was all using timein roman font,obviously it,s doesn't look very appealing,so lets try and change that,so what we are going to do is to select this paragraph by his element name,so remember we use a selector in css to select the element that we want to style,example
+so we will put our colibleze inside here,we use our properties and values,so one of the font proper that we can chage is the font-family and the font -family is basically the type of font you are using,like i said wirldford
+p{
+  font-family;arial
+}
+make sure u speel it well,or we can also change it to tahoma
+p{
+    font-family: tahoma;
+}
+'Segoe UI', Tahoma, Geneva, Verdana, sans-serif or anything else that is install on ur computer,now when its come to using font steps on install in the users computer,so if u want to use speacial font that u may be downloaded from the internet,that,s get alitte bit complicated we are not going to be speaking about that in this video,but i just want to let you to be aware that u can use any font acearn by ur computer so they are also some font that is learned from window to mac  and they are some that are across whole platform,you might just get use to it or read more about it,so the next thing we are going to talk about is font property call:font-weight
+and the font-weight is basically either maybe ur text should be bold or not bold
+example:p{
+  font-weight:bold;
+  font-style:italic;
+  font-size:24px;
+}
+  ,norml;so if u type in bold ur text will be bold but if u type in normal it was be normal,so if we save this and go ahead and run it in fire fox,and our text will be bold,and we don't only need to use bold we can also use value that goes from ,100,200,300,400,500,......900,it,s mean 900 is fully bold but if u put something like 500 thta is half bold,the next one is font-style properties
+  so we can also work with font-size,it,s actually mean mean hw big u want ur text to be,so you can give this a measurement in pixel,so wideford is like 12,but lets make a little bit big like 24 px,when save this and refresh its make our text bigger,so those are the four font properties we can work with when working with font properties,but we can actually make this shorter,we can put all of this properties into one line and to do that all that we have to do is to type the word font;example
+  p{
+     font:bold italic 14px tahoma;
+  }
+  so this call css trick or shorthand of adding multiple css properties in one line,to save the time.
+  welcome to tutorial(14)css comment
+  so in this tutorial we are going to be learning about css coment,so css coment is use for the same reason as html coment,so they are just there for you as a program or a web designer to see what your code was there for,it,s just a way of living note for your self,like why you wrote certain code,or just to help other people out;so that just basically what css coment is albout,so lets go ahead and see how to use them;so they are actually simple
+  so to add comment to css we will go ahead and add in this stuff,example:/*
+When we put this /* everything will turn green,so everything on it is a comment until we reach another */example:/* */ so any comment we want to make have to be inside the comment  and we can also go ahead and add side note about other things aswell,like when,this is font weight,font size,font style,font family,so we can ahead and say/*weight style size family*/ so now we now know what column to us why using this font style properties
+welcome to tutorial(16)box model,border
+so in this css we are going to talk about css box model,and in pacticular we are going to be talking about the border properties of our css box model,so am actually using code from the previous tutoorial,so if u don't know what is padding you can go back and watch our previous video and ypu will be up todate to watch this video,so they are three important to work with when putting a border element,example:
+h1{
+  backgroung-color:yellow;
+  padding:10px 40px;
+  border-style:solid;they are also debuggers,rich,insert,outsert,so am going to learn alist in the comment below to practice
+}
+  A border basically just a degrade of pathern arround outside of our box,so the first properties we are going to work with is the border-style,and this basically what you want ur border to look like and there is a few diferent option we can work on,so we will go ahead put <solid>,so the second properties we rae going to use is <border-width:5px; we can also change our border-style into dash or many other properties,example:dotted,dashed,solid,so this are few of the properties u guys can go ahead and try different other properties just like i say they will be alist in the description below
+  but this actually look alittle bit tideious because it,s mean anytime we want to put a aborder in our webpage they is a three lineof code involve and just like every other properties involve in the past that i show you guys they is actually a short cut of doing this instead we just have to put in the properties of border:3px the size,pathern-style ridge,color red;the 3px dont really look great so lets make it<8px>
+  h2{
+    background-color: turquoise;
+    padding: 10px 40px;
+    border:5px ridge red; 
+}
+something u mihght want aborder on the top and down but not on the left and right,so lets go ahead and creat it that aswell
+h2{
+    background-color: turquoise;
+    padding: 10px 40px;
+    border-top:4px solid green;
+    border-bottom:8px groove orange; 
+}
+so that is how to deal with border
+welcome to tutorial(17)box model,margin
+so in this tutorial we are going to continue talking about css box model and in particular we are going to be talking about the ,margin and this is going to be the last video in the box model,so we will continue with our previous video ,so lets continue,the margin is actuall the width space outside our element,the space betwwen the side of my webpage to the element or from the top of the webpage to the element is call call margin,so lets go back to css and change it,so we will just go ahea d and type the margin properties eg<margin:50px;
+margin arranges your element and give enough space for the starting of your web page,so we can also make everything touch each other by the removing the margin from the body because the body itself have margin,so i just to try that because of u some cleaver people might want u to try use a margin of 0px
+body{
+    margin: 0px;
+    padding: 0px;
+}
+and this will work like a padding did,we can go ahead and put a margin in the top<margin-top;0px; magin-bottom:0px; or we can go ahead and put all the properties in the margineg:margin:10px 30px 60px 100px/*top right bottom left*/
+h2{
+    background-color: turquoise;
+    padding: 10px 40px;
+    border-top:4px solid green;
+    border-bottom:8px groove orange;
+    margin: 10px 30px 60px 100px; 
+}
+i hope u guys have a better esperence about box model and u can go out there and make boxes in the your webpages
+welcome to tutoorial(18)div and span
+so in this tutorial am going to mbe talking to you about two html properties that are meant to be use specifically with css and the div and span tags unlike any html tags you have work befoe this two element don't usually change any content in anyway at all,so if want to make use of div element real quick,so we will open a <div>tags  and close </div> so u will see any content i put in this div tags will not actually change untill i use css to change it,so am having this two tags inside this div tags didn't change the way they work
+<div>
+    <h3>isaac praize webpage orentation</h3>
+    <p>isaac webpage helps in building your mental capability</p>
+</div>
+even though we soround our text with span tags nothing will work,but with css everything will work,so lets go ahead and the look on css to make our webpage look pretty
+div{
+    border: 1px solid red;
+    background-color: yellow;
+    width: 250px;
+}
+span{
+    color: green;
+    text-decoration:underline ;
+}
+before we go ahead and run this in firefox lets me explan to u while i design my tags element like this,like why div is like a blog and the span is in inline format in the same line
+and the reason is that a div tag is actually a blog element,i like to write my tags the same way that they will display in the browser,a div tag is a blog element,if i was to make another div tag that mean i will basicallly have two blog and the this blog will oversee what ever element is contain inside the blog,so basicallly a div is a big blog we can put on our page and mean while a span tag is an inline element,beause it's can't break to a blog or anything it,s just going to change the content u sourround with the tags or in btween the tags but it,s not going to change
+ so i were to put the div tags arround the word day ,day will will be blog on his own
+ welcome to tutorial(19)working with colors
+ so in this tutoorial am going to be showing u hw to work with colors in html and css,so before we proceed i just to want to explan that i have a div tag in my body and inside the div tag i have a a paraghrah,so if i go back to my css i have tags my div to hight:250px,width:250px,so the reason i did that so we can actually have a big blog
+ <div1>
+    <p>isaac praize webpage help you to work with color</p>
+</div1>
+and that is going to show color any time i change background color of my div,so now lets actuallly take about the color,and u guys has proballly notice that anytime i change a background color or text color in the previous video so i have a precept color like red,blue,green or yellow or something,but the web is like somuch more colorful,than those simple html color precept,so lets say i wanted to change the background color,before i go ahead and type in the background color and use a precept color like blue,but now i dont to choose what shade blue will apear but the default blue will just appear;so it like a real dark blue color,if i go ahead and run this in firfox,i got this dark blue here,like i say the web is so much colorful than this pricept
+apart from this they two other option that we can use,so the first option to change color is the excedis more color value or an IGB color value,i will show you hw to do that aswell,so let, s take a look at hexadecimal color
+1)hexadecimal  color: is basically like a sic character but they can be in a form of numbers;number 1 to 9 or leters from A-F and if u guys want to go ahead and get excedies more color u can go ahead to google also u can go ahead and serch for html color picker,you can go ahead pick one of this color and u will get a color that look like this,but what i prefer to do is go ahead to any editing programs,so right now am using a program call (GNU imaage manipulation program)sometime we use photoshop aswell
+but GNU image is free,any of that is watching if u dont have money for photoshop go ahead and download gnu images,if u want to get a html color go ahead and click the color,by the time u move ur cusor under html notation u will see the number that will change our html color code,what ever the color is that is the color that u are seeing in the current old,so just go ahead and copy what ever color u wish and paste it on ur css,instead of using color blue we can go ahead and use our gnu image color,but u can't just go ahead and put in ur color just like that in html or css,u need to go ahead put in #tags to tell html that what ever come up is going to be a GNU color,so basicallly # tag color and u are sorted,so after apllying that and go ahead and refresh it instead of haveing the horroble blue we can have this beautiful looking nice i the eyes light blue(#00baff)
+so like i say we dont have to use hexadecimal color value we can also go ahead and an igb color value;
+2)IGB color value:example:background-color:rgb,which stand for red,green,and blue and we will go ahead and open a parentesis and add in and u are going to three difference value,like 1)how many red do u want,2) like hw many green do u want,3)like hw many blue do u want(0,0,0);so if u live this at 000 that mean u are going to get black,so if u go ahead and change it to 255,255,255 and will be white and u can have a number higer than 255,255 is the highest in igb color value,so if u can guys want to use a blue or green u can go ahead and use GNU Image or photoshop,from the gnu u can get all the value you need
+div{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(12,255,0);
+}
+welcome to tutorial(21)classes
+so in this tutorial we are going to be talking about classes in html and css and what classes is ,is a basically like a styling selector,so you are able to add a class to one of ur element and you able to style your element acording to the clause rather the actual element name,and am going to show u,just when i come in handy now because,lets say i have three  paraghrah;lets go ahead and make 1 paragraph
+ <body>
+ <p class=:blue">i am blue</p>
+ <p class=:red;>i wish i were red</p>i'm feeling bright and yellow</p> so we will try to make each paragraph will changes colour,you know fromk our previous tutoorial,i can go ahead and select a paragraph name by is name,i will just go ahead and type in p and style my paragraph,but the problem with this is that it will style all my paragraph,if we goahead style it in css,it will turn all our paragraph to blue,so mhw can we do to turn each paragraph to a different color,example
+ <p class=:yellow;> i love yellow colour</p>
+ </body>
+ so in the paragraph we will go ahead and add <class=:blue; basically we will able to turn anything to the different color we need with thhe help of class,so we now go css and instead of styling our paragraph by the element name we are going to use the  class and to style anything using class we have to first put in a full stop (.)and that basicallly html or css listin up am going to use a class,when ever you are styling something using a visual studio code ,it will change the elemeent to brown,so we can go ahead and turn the actual text to blue examole;
+ .blue{
+   color:blue;
+ }
+ if i save this now and run it in firefox it will turn to blue,only our blue paragraph and other text haven't change yet because we have not style,so that's hw to use classes to syle one element of many element,so lets go ahead and add in our red class and yellow class
+ .blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+that is how u will use a class to style one elment at time but,i say classes can be use to style more than 1 element, let say i wanted to add in another paragraph and i wanted to be blue aswell i can just go ahead and add in another paragraph and type blue and when i save this now it,s will turn blue,basicallly just add what ever class to what ever paragraph you creat and it,s doesn't have to be color alone ,it can be with borders,or background images or anything i have show you guys in the past tutorial
+welcome to tutorial(22)-ID's
+so in this tutorial we are going to learn how to style our webpage using id,and if u watch the previous tutorial you will remember i spoke to u guys about classes,so we are going to make a few references to that video,so the difference between id and class is that they work basically the same but id is unic to each element so in other words lets say u want alot of element in your webpage to look the same like 50 element or 10 element in your webpage that you wanted to all look the same then u need to go ahead and use a claas to style those element ,but if u have just element that you want to style the reason for that is because id have to be unic each element,it will probably work if you element for the same id,
+with css,but if ever try to use two element the same id then and  want to add java scripts to the pages leter and selected element by id you gonna confuse the head cord of jave scripsts basically,so just don't use two element for the same id,as long you are using two element  that are after the same id u should use a class.
+so lets go ahead and put so element in our page tand style it wi an id,so i will go ahead and crea three difference paragraph so am just going to put my cusur behind the  paragraph and push contrl (D) example
+<p id=:blue">isaacpraize webpage creat an avenue to to enlighten you in network programs </p>
+<p id=:red">we are clad to have as our prominent clints </p>
+<p id=:yellow">And we will do anything posible to carrying each of our dear clint along and also make sure we pass accurate information to them all. </p>
+sobase on our previous tuttorial lets go ahead and turn each of this element to difference color; so lets go ahead and turn each of the paragraph into difference color,so lets go to css and style our paragraph,before we go into our css page let,s go to our paragraph and add in our id tags,so let go over to css and style paragraph by their actual id,and the way of doing that is that u tell cs listen up i want to style using id and the way of doing that is by use (#) and then go ahe ad and type in your  blue
+this the css aspect
+#blue{
+    color: blue;
+}
+#red{
+    color: red;
+}
+#yellow{
+    color: yellow;
+    background-color:black; just so that we can see it
+}
+because in the previous tuttorial you guys didn't actuallly see the yellow text,so lets go ahead and run this in fire fox,so you can see i have been able to use the id to style all the paragaph,so we got our first paragraph,second,third.
+welcome to tutorial(23)child selectors
+so in this tutorial we are goiung to be talking about selctor in css and am actually going to be talking the child selectors specifically,if u don't know what i mean by child selector,basically i mean element inside another element.so in other words lets say i have a div tag over here and i have a paragraph inside of this div;example 
+<div>
+<p>i have a parent div </p>
+</div>
+<p>i don't have a praent div</p>
+and outside the <div> we will just say we will put in another paragraph and this one will just say and basically what this paraghrah is the child of div element,because basically this paragraph is inside of this div element and the paragraph outside the div doesn't have a parent because it,s outside the div, so u can actually relate this explanation,that when a ever a paragraph is inside another element that mean that element is the parent
+so if ijump now to css and style it and i really want to style th paragraph inside the div we can go ahead and use the child selector,so when ever you want to style with a child selector u will type in the parent name first and then the child so lets go ahead and turn all the paragraph inside the div red;example
+div p{
+  color:red;
+}
+so i should get two paragraph on the screen on is red because it,s has a parent div and the second one is normal,and another thing is that css when ever you are styling will take alonger discription when ever u are trying to style an element,eg why do i need to style with div p and just go ahead and style with p,because if i style with p it will turn all element into red even if i have another styling roll that is set to turn all paragraph blue if we 
+go ahead and run this in paragraph we will see that it,s turn all the paragraph into blue except the child paragraph,because css will choose the more descriptive name yea this is more accurate because it,s has the parent name and the child nmae and another thing i want to talk about is that if u are ever going to have both of this paragraph inside the paragraph that show that both of them now have a parent div and if u want both to have a difference color that mean u are going to combine class or id with the actual child element example;
+<div class="red">
+<p> hhhhhhhhhhhhhhh</p>
+</div>
+<div id"blue">
+<p>hhhhhhhhhhhhhhhhhh</P>
+</div>
+we will give the second paragraph and id jus to demostraght that we can deal with both id and class,so to change ur class or id just type 
+.red p{
+  color:red;
+}
+# p{
+  color:green;
+}
+so all paragraph with the parent of red and grren shouls turn the those colors
+welcome to tutorial(24)pseudo classes
+in this tuttorial we are going to learn about pseudo class in css and if u guys are wondering the text look difeerent yea because i have change it a little bit;basically i started recording my screen at a high resolution,so that i can try to have the video available 720p and the text was actually small and i decided to zoom it abit,as you can see it,s make thing things alittle bit difference.
+so lets talk about pseudo class,a pseudo class is basically there to give you guys a little bit more control over your styling,they are all bolted to css but u cann't go ahead and make your own pseudo class,but u can choose from a bunch of premade pseudo class that we are going to be looking at now,and am probably be showing you all of them,so you can to google some of it and see if u can fine out anything that you need that is gonna be useful to u there
+of of the pseudo class am going to be showing you is call first letter,so lets go ahead and make four paragraph.
+<p> you </p>
+<p> only </p>
+<p> live </p>
+<p> once </p>
+so we can go ahead and style the first paragraph and every other paragaph using a pseudo class and we will able to make the actual work yellow stand out,so let,s ahead and do that in css.and the way of useing a pseudo class is by selecting the word in which you wish to to change so in this case it,s going to be the p element and you have to add on alittle bit of extral information which is the pseudo classes that you are choosing to use,so like i say there is one call first letter
+so  you are going to type example;so the first the first letter of everyone of our paragaph so that is basically what pseudo class is styling
+p:first-letter{
+    color: indigo;
+    font-weight: bold;
+    font-size: 20px;
+}
+so if i save this and run it in firfox, so that is the first letter pseudo class and we also have something call the first line pseudo class,so if i go back to css and take out our former paragaph and add in a new paragaph and we are going to make it quite long
+<p> isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible.  isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible
+ isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible.  isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible
+ isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible.  isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible
+isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible.  isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible
+ isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible.  isaac praize website is respomsibe for a stable and firm website ,which can make everything sensible</p>
+ so lets go back to css instead of working with first line lets work with first-leter eg
+ p first-line{
+   color:blue;
+   font-weight:bold;
+   font-size:20px; you can go ahead and save it and run it in firfox, and what this is going to do to change the entire font and first line font-size,font-color,color:blue of our first line in the paragraph, we got a few,so as u can see our first paragraph or topline change why the rest will still remain the same even though we decided to drag this we will see that it will drop back to black
+ welcome to tutorial(25) more pseudo classes
+ so in this tuthorial we are going to continue talking about some more pseudo classes,because we we didn,t cover everything about the pseudo class,now lets go ahead and strat talking about some of our pseudo class and the first pseudo class i want to talk to u about is the first child pseudo class and obviously because that is a child and we have to work with a parent element aswell,so lets go ahead And
+ and creat a div and this will act as our parent and am actually going to add and id to our div and am actually going to this this div an id of parent and i will going and trow in a few paragraph inside of this div, so we will go ahead and duplicate that;so in the previous tutorual we work without
+ <body>
+ <div id="parent">
+ <p> you </P>
+  <p> only </P> 
+   <p> live </P>
+    <p> once </P>
+    we will go ahead and style the first child ,the first child is the first paragraph,so we will go ahead style the first paragraph
+    if we go ahead and style our parent tags
+    #parentp:first-chyild{
+      color:red;
+      text-decoration:underline;
+    }
+      #parentp:last-child{
+        color:red;
+        text-decoration:underline
+      }
+    
+    so lets actuallly take alook of two pseudo clause,so this by itself is not actuallly going to grab anything of this paragraph,we have to go back to our html pages and made some changes,when we are selecting befor and aftrer class we are not actually selecting any of this elemeent(paragraph);as you can see there is a prettymuch space before these paragraph and in the second parent before after and that present ,so we are not actually selecting any of this paragraph,the little space between the paragraph is our paragraph and the one inside is call parent
+  so lets go ahead in css and add up
+  #parent p::before{
+    content:"i am before";
+}when use use thes content it,s add more text before our te
+#parent p:after{
+  content:"i am before";
+  
+   
+}when we use these content it,s add our text forward
+we can use css to add some content to our initial texts, we can use this for different things,we can also use it to clear a floating div,but i haven't spoken to you guys about floating div yet,you prpbarlly don,t what am talking about.
+welcome to tuthorial(26)nth child pseudo class
+so in tutorial we are going to be talking about nth child pseudo classes as i have actuallly be requesting after my previous on how to make an nth child video leting tell u i was actually planning on making an nth child video before the request,so if you guys are new to html and actually dont know what nth child does it  actually allow us to style all our content in our webpage,for example if i have ten,paragraph i can turn every paragraph to difference color
+or if i have a row or table i can turn every of my row into a difference, it will just make things alot easiar for the users,so that something we can use nth child pseudo claa for,so lets go ahead started doing something.so we are going to creat a parent div,just for styling purpose;so let just go ahead and type something randomly into it
+example:<div id-"parent">
+<p> I love greens eggs and ham</p><p> I love green eggs and hams </p>
+ so lets just go ahead and duplicate this,by pressing control (D) to duplicated it
+<div id="parent">
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    <p> I love green eggs and hams </p>
+    </div>
+    so lets go ahead and style it,in css
+    #parent p:nth-child(even){
+    background-color: grey;
+    color: red;
+}
+we can put in (odd)or (even),so when we run it in fire fox you can see our paragraph has many color in every of our second row
+lets also go ahead and change it to blue,and instead of writing even or odd we can give a pathern to follow,lets say i want every of our pathern to change we can go ahead and add(2n) and that wil cahange every second elemeent
+so if i go ahead and select this to 4n and it will go ahead and change every of our 4th paragraph will change,so that is also one way u can use this and lastly i just to let u knoew if you select or only put the 4th number without including n html will only select
+the 4th number and change only,so if the pathern to actually repeat so u have to include the n and it will go ahead and style every 4th paragraph of our page
+welcome to tutoorial(27)styling links
+so in this tutorial we are going to learn about how to style links using css,i think this the right to bring this tutotial in because we have learnt about pseudo class and anytime you want to style your you need to use pseudo class,to style them,so lets ahead and throw a link in our webpages
+and i have my two <a></a> tag and am going to mke alink to my youtube channel,so in th e<href"http.www.youtube.com/queentinwatt" so if we go aead and run this in firefox it,s show list but nothing speacial about it, so lets go ahead and style our link style in css,so the first one will be our link attribute and the second that is when we will use the pseudo class,so we have to go ahead and put that column in there
+like i say when ever we style link we make use of four difference classes
+ a:{ the first one just a normal link,that has never been visted or click on
+    color:green;
+    text-decoration:none;
+ }  
+ a:hover{ this is basically while ur mouse is hovering over the link
+    color:red;
+    text-decoration:underline;
+ } 
+ a:active{so this is basically the state that the link is in while clicking on it or the actual link
+    color:orange;
+ } 
+ a:visited{so this the state in twhich the link has already been visited
+    color:purple;
+    text-decoration:none;
+ }   
+ so without changing anythnk lets go back to the browsers,lets me explane so right now our link is completly default,so if i go ahead and hover over this link you can see my mouse is changing,so that is the second steps and it,s call hovering and i can actually make this links change colour while am hovering,if i click on it it will change color,so that is call the active stages,so while am holding down this link is active as soon i let go it return to blue
+ now lets go ahead and style our difference stages,so y default nu can see our code is actually blue,and its been underline,so lets change this up alittle bit,so lets go ahead and run dis in firefox ,no w we now have a link that is going to change anytime we hover our kusor on the styling links,it,s change it to red,and you can remember from the defualt the link was blue and if we hover on it it,s turn red,with underline and if we run it it turn purple,and if i go ahead 
+ and hold down on it it will turn to orange,and when i run it and return back u can see that the link has turn to pink,so that,s how to style our link
+ welcome to tutorial(28)styling list
+ so in this tutorial we are going to talk about how to style list our webpage ,so am going to to off by placing <h2></h2> it,s that we trully in need of it but it,s goinbg to make our webpage look beautiful,so am going to type in the word (menu)because we are going to pretend as if we are makung a menu list of things a customer can choose from,so lets go ahead and trow in our list,so am going to be using an ulder lists,which is the <ul></ul> and we will trow in so list iteam
+ example:<h2>menu</h2>
+          <ul>
+          <li> bacon and cheese sandwich </li>
+           <li> hamburger </li>
+            <li> steak</li>
+             <li> salad </li>
+          </ul>
+          so lets go ahead and duplicate the list iteam to three time,so in this list iteam we can go ahead and put in a food type list,so if we save it and run it in fire fox,and that is pretty much hw it going to look like y defualt in most browsers,so with the use of <uL> it,s will ive it bullet point so let go ahead and actually change this bullets point,so to do that we are going to actually grab our an ulder list,using the ul selector,and we are going to actually change this and use a property to change this bullet point
+          and property can be set to list-style-type and list style type can be set to valaue,y defualt is set to be disc and basicallly that what this things are,the bullet point are,in css what that little black dot are are called disc,and if i go ahead and set this to circle what we will be getting is an empty circle,for example:
+          ul{
+            list-style-type:circle; and another value i can give this is square and it will our text to square,like is ay they alots of value we can use to style of disc and another we can use is (decimal),so lets go back and check few more values and instead of putting decimal here i can go ahead and put (lower-greek) and this is going to be giving us some greek avarbet we could also trow in some japanise symbols also if we use the value of (katakana) and if u tire of using one of this
+            symbol u can go ahead and create your own,list-style-image and the u have to have an actual image to be able to do this and as u can see it,s in the same folder or the desame directory as index page and my css page,and when ever i want to include my image i just type in  the word <url:(images @.png);and pun on some parentaces and go ahead and put on the images name,in this parentace and u guys have to use a small image because if u dont the broswer will not show up and if we go ahead and run it ,u will see all over list now carry this this box i edits
+            and if the list line is to bigs or close we can go aheasd and increase the line-high:600%;   and u can see i have a higer space between my actual list and before i end this so we will go back to our index page  and actually copy our menu coding and paste it a few time
+              <ul>
+          <li> bacon and cheese sandwich </li>
+           <li> hamburger </li>
+            <li> steak</li>
+             <li> salad </li>
+          </ul>
+             ul{
+    list-style-image:url(image1.jpg);
+    line-height: 600%;
+}
+so y default u can see that this our little dot are outside of our list are perfectly arrange but if i go ahead and style this in css and style this for example
+ul{
+  list-style-position:inside;
+}
+so it,s show everytime anytime we want to type in a new paragraph our world will come inside before the dot bullet point and the othe rvalue you can put in his is (outside)
+welcome to tutoorial(29)rounded corners
+in this tutorial we are going to be lerning how to learning how make rounded corners and rounded corner are new to css 3 and html 5and if u are using and outdating browsers like internet explorer 8 it,s not going to be supporting it
+and as long as your computer is up to date this should work and if it,s doesn't work go ahead and update ur browsers and all rounded corners will display,so to save time we will just go ahead and start coding our text ,so what i have done here ,i have creat a class
+eg:<div class="rounded_box">
+Apples
+<diV>
+and i went ahead and give it some styling too,so lets go to css and round off this conners, all u have to do is (border-raadius:5px;) when running it will just rounded our box alittle if i go ahead and put 50px and run it u can see it,s has turn our box to a rounded_box,so that is basicallly on how to rounded all of the corners,and what happen if u only like oneside to be rounded and rest sharp and we go ahead and get rid of the raadius,example;border-top-left-radious
+and as u can see top left side of our box is rounded while others remain the same and if i want td to do this to the top-right corner we will just go ahead and change it to right insted of left and if i go ahead and refresh u can see our right is being rounded and if i want to to do the bottom conner i will just go ahead and change it to the bottom,instead of top and if i wanted to change it to bottom left and u can see it has change to bottom left,and note this might not work in some broswer of chrome if u want to realy make it work in all broswers there is something we need to add to it,s, it is call a webkid so chrome use a webkid-border radius and that will make the rounded border appear in all other broswers version, and as i say the latest version support it without the wedkit so we don,t need to use that
+but if u are using a.rounded_box{
+    background-color:orange;
+    width: 200px;
+    text-align: center;
+    padding: 50px 0px;
+  border-bottom-left-radius: 50px; older version u can go ahead and use (webkit) and if it,s really old u can make us of -moz-,but this standard version should work in most of the broswers.
+
+welcome to tutorial(30)linear gradients
+so in this tutorial and going to be talking to u about linear gradients in css 3, and this is again something that si new to css 3 and if you trying to this to work in old or other browsers it,s probably not going to work and as long uare using to something that is up to date like crome or firefox,in this tutorial we ar egoing to be using a div and a class=rounded_box and a apple on inside it,border-radious was something we learnt about in our previous tutorial and if u have all of this code writting down u sould have something like this
+      <div class="rounded_box">
+            Apples
+          </div>
+and in css we will go ahead and style this like this
+  .rounded_box{
+    background-color: ;
+    width: 200px;
+    text-align:center;
+    padding: 50px opx;
+    border-radius: 30px;
+}
+and we can also go ahead and add a background color and if u are going to be using gradiant abd i advice u to use some kind of color for our background image and we can also set this to some color blue(#0299ef) abd basicallly  the broswers doesn,t support linear gradients u will got the background color showing
+ and when i click refresh u will got the light blue showing as our background, and if we decided to put linear gradients into our style and going to go ahead and say (background_image:linear_gradient())and as i say this also new to css 3 and that actually ztake a few properties,the first properties is which direction you want ur properties to go to,so in other word,s we can a gradient style at the bottom and walk it,s way up to the top,or from the top to the bottom
+ so they are two different value we can put in it, i can just go ahead and do it like this
+ (to top,#04507b,#00a2ff)and also include the kind of color we want to include in our style,so now i want to start from a really dark blue so i will go to photpshop again and select my color,so now we now have a gradient that will move from a very dark blue to a light blue, so let go back and refresh this so u can see we had a gradient box with a very dark blue at the bottom and a very light blue at the top,so some thing else i wanted to show you,change a really dark blue to a really light blue
+ .rounded_box{
+  background-color:#0299ef ;  
+  width: 200px;
+  text-align: center;
+  padding: 50px 0px;
+  border-radius: 30px;
+  background-image:linear-gradient(to top, #04507b, #00a2ff)
+}
+so i will gom ahead and grad so soth of bleus adn add it to our style it and before my light blue i want, and by now we should really have a dark blue,kind of light of blue,light blur and really light blue, fi you go ahead and run it ,u might not really notice it but there is something else we can apply to it, is to decide hw much space to give them,to take up
+so if i went to my first collor here and set it to something like 50%,it,s mean that this color will go up 50% of our box and only started fading in tomthe next color blue and if i go ahead and refresh then u can see we have amount of aline of our color,that is because our dark blue has gone all the way from the bottom to the middle, lets go ahead and make it even bigger(80%) u will see it it has alittle space left, so it will be good if u give it a value of (20%,40%,40%,100%), and u can us e to really make something really good 
+.rounded_box{
+  background-color:#0299ef ;  
+  width: 200px;
+  text-align: center;
+  padding: 50px 0px;
+  border-radius: 30px;
+  background-image:linear-gradient(to top, #04507b 20%,#0072b4 40%,#018ad9 40%, #00a2ff 100%)
+}
+welcome to tutorial(31)float and clear
+so in this tuttorial we are going to take alook at float and clear properties in css,so in this video i just want to explane the basic in the next video i will show u on hw to use flat and clear to style of webpage and that is to make a 3 column layout for our website and am going to be showing u hw to dat,in the next video,so in this video lets go ahead and treat the basic and am going to be showing you how to float an image to the site and clear the image aswell lets look at my directary structure here or my file,so i got my index page and my css page and the picture so let ggo ahead and add that picture of me and add some content to it,so lets go ahead and add the width and the hight
+so when we type in that so just remember to use ur float directory path,we talk about in oour directary structure video if u dont know how to use it go back to our directory structure and watch it again,and the odd atribute for this will be <imag src="me.jpg" alt="pic or me
+<img src="bacelona city.jpg"alt="pic or me"width="200"height="200"class="pic">after this we can go ahead and add some content over here,i will open up paragraph and close it abd duplicate that that is we have two paragraph and instead of just going ahead and fine in something to type i will just go ahead and copy something into it
+<p>
+welcome to tuthorial(26)nth child pseudo class
+so in tutorial we are going to be talking about nth child pseudo classes as i have actuallly be requesting after my previous on how to make an nth child video leting tell u i was actually planning on making an nth child video before the request,so if you guys are new to html and actually dont know what nth child does it  actually allow us to style all our content in our webpage,for example if i have ten,paragraph i can turn every paragraph to difference color
+or if i have a row or table i can turn every of my row into a difference, it will just make things alot easiar for the users,so that something we can use nth child pseudo claa for,so lets go ahead started doing something.so we are going to creat a parent div,just for styling purpose;so let just go ahead and type something randomly into it
+example:<div id-"parent">
+</p>
+<p>
+welcome to tuthorial(26)nth child pseudo class
+so in tutorial we are going to be talking about nth child pseudo classes as i have actuallly be requesting after my previous on how to make an nth child video leting tell u i was actually planning on making an nth child video before the request,so if you guys are new to html and actually dont know what nth child does it  actually allow us to style all our content in our webpage,for example if i have ten,paragraph i can turn every paragraph to difference color
+or if i have a row or table i can turn every of my row into a difference, it will just make things alot easiar for the users,so that something we can use nth child pseudo claa for,so lets go ahead started doing something.so we are going to creat a parent div,just for styling purpose;so let just go ahead and type something randomly into it
+example:<div id-"parent">
+welcome to tuthorial(26)nth child pseudo class
+            so in tutorial we are going to be talking about nth child pseudo classes as i have actuallly be requesting after my previous on how to make an nth child video leting tell u i was actually planning on making an nth child video before the request,so if you guys are new to html and actually dont know what nth child does it  actually allow us to style all our content in our webpage,for example if i have ten,paragraph i can turn every paragraph to difference color
+            or if i have a row or table i can turn every of my row into a difference, it will just make things alot easiar for the users,so that something we can use nth child pseudo claa for,so lets go ahead started doing something.so we are going to creat a parent div,just for styling purpose;so let just go ahead and type something randomly into it
+            example:<div id-"parent">
+</p>
+so lets just go ahead and mimimize that and run it in firefox, so now let,s take alook of float and clear, go to css and glab this pic class,i give it a class of pic
+.pic{and we can look at the float properties first
+  float:left;    and we can actually have two difference value flat left and float right,so lets actually go ahead and look at flaot left first,if we refresh it the image is not going to change but will happen the image will jump up and float and wrap about the image, lets go ahead and open up our paragraph and increase the paragaph,by copying and pasting it
+  and u can see thee paragraph is actually wrapping arround pur webpage,so this is what we do see often in news paper often and something and it,s include the acticle and in news paper some time some people can  say they,dont like the picture and deided to change the pics and secod paragaph can actually appear in the bottom,so lets go ahead and use clear properties,so in my second paragraph i want to o ahea and give it a class of<para2> because it,s in the same paragraph and we can go ahead and select that paragaph here in css,
+  .pa 2{ clear here is what ever we are giving the clear properties will clear what ever that is floating above  our paragragh, because our image was floated left,go ahead and say <clear:left;> and we go ahead and refresh it,and u can see our image that was second that was wrapp arround our image as being,is now standing benide,the image,and if i go ahead and flaot it to the right,and as u can see our image is now floating to the right and our second is still wrapping around our image,so what to do is to actually clear to the <right too>so what need to do with this is to <clear:both>and what this will do is to clear both the right and leftand that will clear both side
+      clear:
+  }
+  .pic{
+    float: right;
+}
+.para2{
+    clear: both;
+}
+so in the video we are going to use float and clear and make a three coloum layout
+welcome to tuttorial(32)float and clear 2
+so in this tuttorial we are still talking bout float and clear this is indeed the second part of float and clear and in this tuttorial as i promise am going to teaching you hw a to float a whole boundge of div,that we can creat as a three column layout for our webpage,and we are going to us e this in the future when i creat 
+a websute template or something,but for now we are just going to actuallly going to go ahead and creat the template three coloum and to do that lets just start by creating a <div class="left_column"> </div>and end it a <div> and i just want to go ahead and give it a class,so am just going to go ahead and put some texts here,let,s just give it some text of div one
+<div class="left_column">
+  div one
+</div>
+<div class="middle_column">
+  div two
+</div>
+<div class="right_column">
+  div three
+</div> 
+an dif we save this now and go over to fire fox and run it,they are not in a column yet,so we need to get them close to each others and before we do that i just to make them like a kind of blog,so let go over to css and style this classes
+.left_column{ we can actually change the color of our text to white,because our blue is goin to be really dark.
+  background_color:blue;
+  hight:200px;
+  width:200px;
+  color:white;
+  margin:10px;
+}
+.middle_column{
+    background_color:red;
+  hight:200px;
+  width:200px;
+  color:white;
+  margin:10px;
+}
+.right_column{
+    background_color:blue;
+  hight:200px;
+  width:200px;
+  color:white;
+  margin:10px;
+
+}
+so lets actually give our div a background color and lets go ahead and copy all and paste and give actually change the background_color,and if we go back and refresh this we should have three box color,ablue one,red one,and a green one. and again they are still not coloum yet because they are all appearing benide each othersand this is actually one column and not three in a sepreat color,so lets go ahead and get them to each others that is where the properties of float and clear is needed,and for our left_column we know we actually want that to be on the left we are going to actually float it to the left
+and if we go ahead and add <float:left;> and if we go ahead and refresh it u can see it,s has disappear and arround our blue box and if we go ahead and float it to the left again it,s will be at the center or middle and the last <div> we will also float it to the left too because if we flaoat it to the right lets see what happen,if we do that u can see u it give it a whole boundge of space anytime i want to creat a middle column i want them to be close to each other,even though i give it a margin to give little space betwen them i still want them to tbe touching each others so lets go back and give a float:left; and actually add a margin:10px; to each boxs and you will see they woundn't be touching each other anymore and they wouldn't still be any wasted space other than the margi in which we put in there
+welcome to tuttorial(33)-new tags for the layout
+so if this tutoorial we are going to be looking at some tags for the layout lannguage in html 5 and now i don't know maybe you guys has actually heard about this tags because and i haven't explane them in my previous tuttorial because i was waiting on to this ,moment to bring it to u,so that it will all make sense and if u guys watch my div tuttoriaol you u will actually know that a div tag is actually a big blog that u can put on our webpage and it,s doesn't make any visual changes to the website or what so ever,un less we actually use css to style it and  i will actually apply some properties to the div and the same thing apply to this new tag that we are all going to be applying in html 5,they don't actually change this website in anyway until we style them and div tags have many more descriptive names because div can be anything or any kind of section or any kind of blog,but the guys at html 5 or the guy who designn html 5
+brother decided hey,and if you take alook at any website,let me go to my youtube channel, all website follow the dame pathern when they are being made,so in this case we got youtube over here and at the top we got a section here where we got a lago and a serch bar and some link,s what ever,but this is gonna be the same across every youtube pages you gonna go to,you gonna see this header because it,s a header same thing with facebook logo and search bar,and twitter same thing tweeter logo and serch bar and some links,that will be our header and it,s doesn't change and all website have a page header
+<div>
+</div>
+and if i created a div and add some content in  it that content will remain the same until i put some styling into this div, and the same thing apply to this new tags that we got in html 5,they don't actually change the website in anyway so we style them,they are equivelent but they has more discriptive names because div could be anything,any kind of section or blog,and if the programer decided hey ,let stake alook at any website lets login into our youtube pags,and if doesn't matter what ever wabpages you are looking at and you gonna see that all website follow,so we got toutube over here and at the top we got a  search section over here and this is gonna be desame acrose every youtube page syou go to,you gonna see this header,same thing with facebook,twitter,their logo and search bars,some links,so thta will be ur actual headge header and it,s doesn't changes acrose all website,all webpage has a pages header and a guy at html 5 realise this and decided hey we can make a new tags
+for header and when ever people are design their website they can use this header to creat thires, and the advantage of this is that we the web designer knows that this is where my header is gonna be,so insted of using a div tag we now have a tags with a more descriptive names which is header,if u were trying to get rant by one of the google engine,they can see that this section contain the header,and it,s just mean that boart can uderstand your website as well,so that is one coolthings in using header,so now  lets go ahead and take alok at the next things which is th navigation,all website have a navigation,in youtube we have to actually click on the navigation to show,twitter navigation is also inside the header,and we also got a new tags call <nav>it,s stands for navigation and u use this whenever you want to link to other pages etc and you will put that in ur navigation or nav tags,lets go back to youtube page and u can see we have we have this big section i the middle here,and this is my channel and this is why you will come to this url link on youtube is to see my channel
+you cna se the header and the navigation on any pages,but u can only see my channel on this exact pages,so the section is like the mide of that same webpage,so the section is the mide why the users came to this exact url;and that is call the main section or in html the <section> </section> tags so in ur section tags that is where u gonna put ur main content and again if go to youtube right now,lets take alook at the side section over here and as u can see thsi actually contain a more navigation and some playlist and some setting and this is a side section and if u take alook at facebook,,twitter and u will see they also got a side section in our website that we visited have a side sction and got the and it,s still kind important like links,and in aside section if we go back to youtube and scroll all the way down we have this section at the bottom,it,s going to gonna be like that acrose all youtube pages and that is youtube <footer> same things ,with facebook and twitter they are all the same and if u scroll all the way the down thy tent to update quiet alot quickly,immiadiatly u scroll down to the bottom it refresh and start all over and prettymuch all website u see they have <footer></footer> and those are the new tags that we need to creat our wedsite layout
+<header>
+</header>
+<nav>
+</nav>
+<section>
+</section>
+<aside>
+</aside>
+<footer>
+</footer>
+welcome to tutoorial(34)creating basic website layout(part 1)
+so in this tutorial we are going to start working on our tags and creating a basic website template or website layout that are going to ujse to create all website from now on ,so i got some code from the previous tutorial and this bacially a new tags in which speak about it in our porevious tutorial and if u didn't watch dat just go and and it,s make a lot of sense to u,so lets divide our website into alargicle section so am going to do i will take this navigation from here and place it inside the headed
+<header>
+</header>
+<nav>
+</nav>
+<section>
+</section>
+<aside>
+</aside>
+<footer>
+</footer>
+so with all this are all tags we use to divide our website upto a manageable logic section,and what am going to do is to take this <nav> bar paste in our header and in that way we can just have our head in every single page and it will be the same and cause ur navigation is gonna be the same acrose all pages,i like to have my nav inside the header and some people like to have their own inside the aside bar and i like to have mine in the header and it will go acrose the top kind of like google,facebook,so let,s go ahead and talk about what we are going to be putting in our header,because we have already know we have to put our navigation and apart from that we have to place our logo,so am going to creat an image tags here
+<img src="logo.png">so i haven,t actually created a logo yet so this isn,t goin to show up unstil we created our logo so for now lets just give this an alt="logo area">which mean our logo for now will have this word  appearing were our logo suppose be appearing until i created the acgtuall logo i needed,so in the navigation bar we have to place a whole bounge of links,to other pages,so we dont have any other pages yet so the link aren't going to be compleat and the way i like to do this is to creat an ulder list,because it,s just make things a little bit manageable so inside the an ulder list and in this an ulder list we gonna have a bounge of lsit and in this list we will have our links attarch to themm,so we will go ahead and creat the links and leave it brank because we haven't created anyother webpage yet so the link will work and we ill still go ahead and style it without linking it to any other pages and the first page to link to is home,example
+<header>
+<img src="logo.png" alt="logo area"/>
+<nav>
+      <ul>
+          <li><a href="">home</a></li>
+          <li><a href="">about</a></li>
+          <li><a href="">tutorial</a></li>
+          <li><a href="">contact</a></li>
+          <li><a href="">playlist</a></li>
+      </ul>
+</nav>
+</header>
+we can see our navigation show up here too and our bullets but don't worry about that we will style them away but for now our navigation is actually showing so that is what we have been expecting ,so that is prettymuch our header done we can add some other stuff later maybe but for now we have goot our basic content,and for our section i think am going to leave this,for the next tutorial,lets just go ahead and type in comment <!..next video..!>,so in the <aside> section there will be some kind aside new tags,just content that it,s not that important but i think,we will get to this in the next video and we will give it a comment too,but for the <footer> but sometime website don't have anythink that they want to put in the footer and if your website going to be empty and u still need a footer,this is where u prettymuch your copy write will go,abd if u guys want a little symbol i think it,s control (c) and if i type in the words
+<footer>
+&copy;
+</footy> i will get a little symbols that shows up and i will go ahead and type copywrite isaacpraizewebpage.com and if i go to chrome and refresh u can see i got my copywrite down here
+welcome to tutorial(35) creating a basic website layout(part 2)
+so in this tutorial we are looking at part two of creating sa basic website layout and am going to be showing u how to make a basic website template and if u can remember in our previous tuttorial we have header with fake log and and empty list without links on it,so we abandon our section tags so oets go ahead and style it in this totutorial and asid4e section we are going to work on that too,lets talk about what goes on in our section like i said our previous tuttorial,the section is ur main content,it,s like the whole reason why people come to ur webpage,and this can content one acticle or quiet a view acticle and bcause of that i also have this new tags in html 5 that i didn't tell u about,but it,s the <article> tags and basica;lly inside the article tags we can write our story,adding what every content that our website suppose to have,so lets say it,s was a news website,this article will content and article that is news related
+so lets go ahead and give this some more content,we need to put in something that will make the reader want to read it,aand under it we will have a sub heading .b ecause some article have a main heading and a sub heading,for example the main heading describe what is happening in the main section and additional heading descript what is happening in 3rd ot 5th heading and whenever u create two different header at ones html will be confuse is this the hearder or the other ones ,so u can choose to sourround this with header tags so any header can actually be in this header tags,and the broswers will not take it as the main header                                                                            
+<article>
+<header>
+<h2> this is an article header</h2>
+<h3> this is the sub header</h3>
+</header>
+<p> this is para 1 </p>
+<p> this is para 2 </p>
+</article>
+so google will actually see this and recognise it,s an heading ogf an article,so lets go dowm one line and continue with our page,we can go ahead and trow in a view paragraph in there
+welcome to tuttorial(36)creating a basic website layout 3
+in this tutorial we will continue on how to creat a basic website part 3
+so we will continue from where we stop lets go ahead and work on the <aside>b tags, we can do the same thing we did in the section tags but this will b e someone less important content and infact something you see in the aside section alot is the social content,we can use an article or even a div tags
+<aside>
+<div>
+    <h5> social links</h5>
+    <ul>
+    <li><a href="">facebook</a></li>
+    <li><a href="">twitter</a></li>
+    </ul>
+</div>
+<div>
+<h2>Related art</h2>
+<article>
+<header>
+<h3>This can be a header for another story</h3>
+<header>
+<p>Get intrested and click below to see more</p>
+<footer>
+<a href="">see more</a>
+</footer>
+</article>
+</div>
+</aside>
+ and actually link our facebook links below and to do that lets go ahead and creat an ulder list,and we will go ahead and put on paragraph just for the reader to read and see what article it,s and a see more tags just to click and see,so lets go ahead and creat an <article>tags and we are going to go ahead and wrap it wi a div tags
+ so the user,s can actually read that and say there is another story here let go ahead and read it aswell,and below just the paragraph just to get the reader intrested some how about the entire story but just a paragraoh,and we will just go ahead and creat alink,s that says see more and we can actually divide this further just like i say an article most have a header,paragraph
+ and our footer which say see more links and we can go ahead and do more links and in the up there we go ahead and do the samething in the head too
+ if we go ahead andnrun thisn in nchrome u can see we have all the basic and making for a quality website layout so in the next video we are going to start using css to style our webpages  and we will be getting this attribute floated at the top and our section area center and our aside area should be appearing in the right side broswers
+ welcome to tutotial(37)-creating a basic website layout part(4)
+ so in this tuttorial we are still on creating basic website layout part 4 and in this tutorial we will be working with css and make sure u guys are link to ur style stylesheet and we are going to start styling our webpage and the first thing to do is to get ride of margin and padding because if we take alook of this in the fire fox really quick we can see there is a margin or padding withich is stoping our image from actuallly wrapping up against the side of the broswers and the same things with our navigation attribute and the same things with header and etc and the problem will be this padding or margin might be diferent from the way it,s in fire fox than the way it,s in chrome  and to do this we will just go ahead and make a coment
+ /*get rid of default padding and margin*/ becuase that is the first things are want to do and to do this we are gong to use the artrick symbols or a little stars symbols just go ahead and press shift and number 8 key on ur keyboard examole(*) and what that done is to select all the element in the webpage and every element that u put on thiswebpage now we got margin and padding and there is something else i want to add to it and we are going to have those bullets point on it and which is good because our navigation was on the list and we dont want bullet point on our navigation and we also have social link close to it that is a link and we don't want bullet point close to it either and we what we need is to clear it out and later put it's in later 
+ right now what i want to do now is all those new element like header,nav etc i want to make sure that default recognise them as blog tags and recent broswers will do that by defualt but if u want to make sure that other older broswers will do that aswell we need to go ahead and do this, we will go ahead and list them one by one for example
+ header,nav,article,section,footer{
+   display:block;
+ } and that is going make sure older broswers display this element over here as blog level element even if  they have no idea what this new tags suppose to mean  and the next thing oi want to do is to center our webpage and if u go back to the broswers and u can see that everything is push to one side and i dont really like that i prefer that our website being in the side of the webside but in the middle or being centre somewhere,well to centre your whole wedpage we need to actually go to html and reset things if i go to the begging of my body tags and drop oneline and creat a new div for example
+ <div class="container">
+ and this is going to contain our entire webpage as you going to be seeing in just a second and going to highligt all my code from the header all the way to the footer and copy and paste it in our container and in css i we are going to go ahead and clab the container and and give it a width
+ >container{
+   width:1000px;
+   margin:0px auto;and what this is going to do is to leave a margin of 0px on the top and a margin of 0px on the botttom,but the left and the right are going to be automatic
+ } and most website usually have a width of a 1000px just to like have a nice round number and we will go the web broswers and check the space  in the right and left side of the website so that we can actually centre the website for us so we can actual go ahead and click refresh and the reason why it,s not actually centre is because if w go back to our website and inspect it, we give a width of 1000px and we can go ahead and put border:2px solid black; and we go back and refresh it in fire fox and som in our next video we will actuallly look on how to get those element floated in the top of our webpage and our main section appear in the main section and our aside section at the aside section
+ welcome to tutoorial(38)-creating a basic website part (5)
+ hope you guys watch the prvious tutotial and if you guys can remember we actually left for the web that kind of like This,we have our logo and one ugly border one thing we will do is to get rid of the border and continue our wedsite in the page and there is also one mistake that i make in the previous video i just to correct real quick
+ go over to css  and get rid of the the border and press refresh and we will go ahead and class to our webpage  and our nav in order to be able to float to the top 
+   <img src="logo.png" alt="logo area" class="logo"/> and we also go ahead and also add a class of top nav our nav tags
+    <nav class="top_nav"> and lets go to css and style our class tags
+    .logo[
+      hight:298px;
+      width:187;
+      float:left;
+    ]what ever our width logo was and we can also do the same thing for our nav for example
+    .top_nav{
+      float:left;
+      width:702;
+    }
+    so lets go ahead and run this in fire firfox and you can see our logo is being wrap arround our element so lets go ahead and work on this and to do lets go ahead to hte header and work on that and am going to place an empty <div class="clear">adn we will give this an empty div
+    <div class="clear"></div> so let,s go back to css and style this and am not sure where to put it,but i will put it at the top,kind of default stuff
+    .class{
+      clear:both
+    }
+    and what that is going to do is to force those attribute to stop wrapping arround our float element and go down to the normal and now we have our logo and our links appearing to each other and let,s try to see if we can get them float at the top of the broswer and they are two difference way we can do this and we can select this with a child element<.top_nav ulli and we want this element to actually display to each other,so we need to crab this list element and let go back to css
+    .top_nav ulli{
+      float:left;
+
+    }
+    so lets go ahead and style this and in this we can do this in two difference ways and if we go ahead and refresh this in chrome or fire fox you can see our list element is being floated but they are close to each others there apsolutely no space in between  and if i can go back to css and instead of saying float left and i say display inline block and that is going to make them appear one next to each others 
+    .top_nav ul li{
+      display:inline-block;
+    } and you can see there is a little space in between them and i will actually give them some padding and i prefer so say float:left and i g ahead and add some padding to it for example
+    ,top_nav ul li{
+      flaot:left;
+      padding:15px 20px;
+    } will do and that will be 15px on the top and 20px padding on the left anbd the right and fo some reason this not actuallly going to make this padding move down it may do but not that much and we probably have to incease the padding from the top to side alitte bit eg padding: 25px 20px; 
+    welcome tutoorial(39)creating  a basic website layout {part 6}
+    so in this tuttorial we are going to continue where we left in our previuous tutorial we left off styling the section and the aside tags and uf we go back to the broswer and you guys will know that we have already take care of our navigation and our  but we havre our main section and our aside section aprearing benide each other so let,s go ahead and get them floated to each other,so to do that and going to go ahead and give me section a class example:<section class="left_side">because it,s gonna be on the left abd we going ton give the <aside class="right">
+    because it gonna apear on the right and i will go down to the footer and give it a class of <footer class="page_footer"> i know spme of you will be confuse like why are you giving a a page_footer at the end of the webpage it will become aparrance in just a second so lets get started with this section and aside section,so we will float the section to the left and the aside section to the right in css which mean they will be appearing next to each other,so i have already make a comment over here which is 
+    /*float aside and the main section*/ so that is what we gonna do and we gonna do that useing the actual classes and we want to flaot to the left side first
+    .left_side{
+      float:left;
+      width:700px;
+    }
+    .right_side{
+      float:left;
+      width:300px;
+      
+    }
+if we float this to the right it wound make much difference but i love to float it to the left to make it more beautiful,so they wouldn't be space betwwen our left and the right that is we wouldn't have unnecessary space,they are going to be floating to each other push up touching each others,so let go over to chrome and refresh this and as u can see there is some kind of changing,yes we have a main section floating tot the left and our aside section floated to the left and we have our footer wrapping arround them and it,s happen because there is enough space for it appear there and first thing we are going to do is to go to our foooter and am going to go head and make comment here
+/*maked footer clear floated element*/ and i will clab that footer by a class name
+.page_footer{
+  clear:both;
+}and go ahead and save that now and refresh it in chrome and the footer in now where it,s should be at the bottom of the page and hw do we get this two blog appear correctly because right now they are right up against each other and this it,sn't taking enough space as it should for example if i am a user and i came here i wouldn't realy know the main content of the webpage that is this what am looking for,so let go over to css and get this style and we going to give this some width and the first thing am going to do is to actually make my left side bigger than the right side because obviously our left side bein the main content of the webpage and might actually look bigger thanwhat i got here in the  example and that mean it will take up much more space and have alot of bigger space that is what actually atrack the users in the big left_sside or the information that is contain in it,so let go ahead and give it a width
+but if scroll all the way to the top here we can see we also got a container that has a width of 1000px and since our left_side and right_side is inside that container we have to actually stick to that width number from the container,so our section side take up to 700px and our asise section take up to 300px to balance the 1000px in hte actual blog and if you guys want to check this u can right click and click inspect and cheek it out but now we got this main section and aside section over here and what happen if we decided to give it a padding or a margin or a border of something lets go ahead and give this a 
+.left_sside{
+  float:left;
+  width:686px
+  border:2px solid:red;
+  margin-right:10px;
+}
+.right_side{
+  float:left;
+  width:300px
+  border:2px solid:blue;
+} and if we go ahead and refresh that in firefox or chrome what do we just float our main section and aside section together or benide each other again,what is actuallly happening and the reason why this happen is if we go back to css we will see that we have 700px width and a 2px border from and 2px from the right  and again if we look at the right we have 300px width and a margin of 2px, and our container has width of 1000px and it,s kind  we are kind of over by 8px and another thing is to substract some space the width that the margin is going to take from use  and we will go ahead and give it a width:696px from the left; and lets go ahead and change the width from the right width:296px;and if we go head and refresh this in fire fox and we can see we got this two blog here  and aside section aperaing next to each other again which is exactly what we wanted in the first place
+
+so we are going to go ahead and add a margin in here i will go ahead and  add mine in the left side;margin-right:10px; and the reason i did that is because i 10px space from the right side of my left side it,s mean ther eshould be 10px of space there but let click refresh and then we fall back to it again because we are over the total width of what we have and since i added 10px and am going to substract the 10px from somewhere maybe from the width:686px; and again that is going to go back to our intial blog appearing benith each others and if we go ahead and minus 10px from 696px and it will give us 686px and we will save it and refresh it in fire fox and refresh it now we have 10px space between the section and aside section  but as we can see we dont even have any space and again there is no much padding between this two article and our work are push up toward our border and if i want to add padding to this section so i have to padding to that as well
+ and we add padding to our section in two diference ways in the next tuttorial.
+ welcome to tutoorial(40) the last part of creating a basic website layout[part 7]
+and u can remember in our initial tutorial we live  we got our blog floated to each other which is what we wanted we i did highlight some problem in doing this when ever we add aborder or a margin,padding so we need to take that into account when ever we are working with total width of that element,so lets actually take alook at this in css and i have already show u about border and margin so lets see what happen if we add a padding to each eg padding:5px;
+.left_sside{
+  float:left;
+  width:676px
+  border:2px solid:red;
+  margin-right:10px;
+  padding:5px;
+}
+.right_side
+  float:left;
+  width:300px
+  border:2px solid:blue;
+}
+this mean i have added 5px on the left and 5px on the right which turn out to be  10px that have been added that have ben added to the total width of this catual class element bso when i click refresh it,s went back to our usual floating benith each othersb and you can see i have added 5px over here an i should here which doesn't have enough content to see those 5px and what that did was to take our aside and trow it back here and that is not exactly ok  and the quick solution in which i show u guys in the previous tutorial
+ was just to take the 10px out of our for actual width of the element and now we will be working with 676px instead of 686px and we still have this padding arround it but there is a better way of walking with this,we can just go ahead and get rid of all padding aand margin and work with 300px for our side and work with 700px in the main section
+.left_sside{
+  float:left;
+  width:700px;
+ 
+}
+.right_side{
+  float:left;
+  width:300px;
+ 
+}
+and when we click refresh we still have our left side down here and when ever we wan to add element to our actual element we can do that to the element that are inside of our actual left side and actuall right side and left take alook at our left side and as you can see inside our left side we got an article and that is the perfect tags to  when ever we want to add padding ,margin,border and that mean we dont have go to the css and be making any funny width in the left and any funny width is the right so we can work with nice round number and the same thing in aside and we are working with a div over here and in between them we got some article and someother stuff and lets go back to css and style this stuff up and am going to be sayign anything children  are of   the left_side 
+.left_side article{
+  border:2px solid red;
+  margin-right:10px;
+  padding:10px;
+}
+and we will go ahead and save that and refresh it to see hw it look like and as u can we got the same thing and we now a border but it,s didn't throw anything out of alignment and it,s didn,t kick our aside down to the bottom or anything like that and lets go ahead and making sure this save and we can also go ahead and give it a margin:10px; and we will also give it a padding:10px;and you can see a little bit of extra space in the aside section and we will go ahead and do the exact same things to the right side
+.right_side div{
+  border:2px solid blue;
+  margin:10px 0px;
+  padding:10px;
+} abd we can see our aside tags is on div so we will go ahead and say <right_side div> so let,s go ahead and save this and refresh it in fire fox and yes we probably give it a margin at the  top from the bottom just take make everything look better and lets go ahead and give it a margin of 10px and 0px and what that mean is there will be 10px margin at the top and 0px at the bottom and you can see we have alitte problem here with this spacing so we should do is to make the margin<margin:0px 0px 10px 0px>so lets make a little comment over here for some people who don't understand thid very well<note> you can only use use this medium if the aside section is not equall with the main section 
+/*top left.bottom right */ and what we did was to give a 10px margin on the bottom and that is what we get and the last the last thing we are going to do is to actually go to our footer and actually center it and what am just going to to do is to go to the footer tag example .page_footer{
+  text-align:center;
+}
+and if we save this and refresh it and u can see our footer is now on the center of the bottom of our page and that is all the prety much we have to do to creat this webpage and if it,s look prety to or not but i have giving you guys the template that you guys can use and if u guys go online and serch for some design or good design for a basic website template of the one you learn before u should able to creat a website templat looking like this and using my code and also aplly some other style to get it looking good so am goona letd you guys practice so that you can be able to make stuff that is good because practicing make u perfect and looking at other people design.
+welcome to tutoorial(41)introduction to table title item.
+so welcome to tuttorial number 41 using table elemeent and you will notice i have clear most of the tags out of my body in which we were working with basicallly the old template that we use to work and i also have a blank css file,so just let let you guys know what we are working with,so lets get started,but the first i will let you guys know about table is they were only added to html so that we as webpage designers or developers had some way of displaying data back to the user in a table like form so that the user can actually read the data or see the data clearly or easily and they are some design that i realise in 1997 when table was been introduce to html a table can be use to layout your website because it,s consist of rows and column and that is what exactly we want our webpages to look like rows and colums,so you will notice they are alot older web desiner out there who actually learn leran to design website in the 90ths or early 2000
+that use table to layout their website and that is completly wrong you should never use table to layout your website,so i just want to let you guys know that and before we even start i do have a website on how to creat a webpage the proper way using a div tag or section tag and all those new tags and along with css and you can creat a webpage that looks good if not better so lets get this started lets actualy add a table to our webpage,so to do that we going to open up a new tags  which is calll table <table></table> and we have a table tags on our webpage and what are going to do with the table the first things is to actuallly give the user some ideas like what the information is going to be in the table,so we want to give our table a caption and we can do this by adding a heading tags
+<table>
+<caption>Best selling game world wide according to wikipedia </caption>
+</table> 
+an dwhat this aption tags does is to allow us to make a caption of what infomation is to be display on our table and a caption tags can only be use inside a table and you can use outside the table,because that is not properly use but inside the table is fine and let,s just go ahead and give this a content of what our table will contend am going to creat a table containing world wide selling game and after the table i actually needed some data to back it up and now we cam actually go ahead and give our table some column and u guys know our table contain some column and rows and to do that we gonna use a tags call <tr> and it,s stand,s for table rows and we have a open row and and end row and now we have one row in our table and we can actually go ahead and add some column now and we can't make a column but we fine away to make a table cells in order words row 1 and blog 1 and that is the actuall cell we can make and to do that we can go ahead and use a tags call <td></td> and that stands for table data and another way to actaully make a table cell is to actually use a tags called <th></th> and table header and the first coloum that am going to want on the table is going to be rank
+and we can actually go ahead and give that a rant and duplicate that
+<table>
+<caption>Best selling game world wide according to wikipedia</caption>
+<tr>
+<th>rank</th>
+<th>title</th>
+<th>release</th>
+<th>copy sold</th>
+</tr>
+</table>and i will go ahead and give the other rank a title and that is goona be the title or game title and another one release year that mean the copies sold and lets go ahead and style this by adding an attribute o border="1" to our table and if refresh this and run it in fire fox  and it,s doesn't look plessantable and am going to save all the css for the table for our next tutorial and we will get back tot this in the next tutorial but right now lets go aahead and add some data to this table and you will creat a new row eg <tr></tr> and now we actually go ahead and fell our table with data
+ <tr>
+              <td>1</td>
+              <td>Tetris</td> 
+              <td>1984</td> 
+              <td>143 milion</td>   
+            </tr>
+             <tr>
+              <td>2</td>
+              <td>wil sport</td> 
+              <td>2006</td> 
+              <td>81.99 milion</td>   
+            </tr> <tr>
+              <td>3</td>
+              <td>minecraft</td> 
+              <td>2009</td> 
+              <td>49.5 milion</td>   
+            </tr>
+             <tr>
+              <td>4</td>
+              <td>super mario bros</td> 
+              <td>1985</td> 
+              <td>35.53 milion</td>   
+            </tr>
+so if we save this and refresh it in chrome and you can see our table and data are now set aand you can see we got our caption and we go our header and we also displaying our table data out just like this  and for now this is still geting long i think we will go ahead and add two more row to this and then we will just ended the tutorial there; so the third most saling game is and that is our trable and more row
+displaying data and that is how to creat a table in html 
+welcome to tutorial(42)colspan and rowspan
+so in this tutorial we are going to continue talking about table and rowspan,colspan and rowspan allow us to make a coloum that span multiple cell and we can use rowspan to make row or cell span over multiple rows and by the way we suppose to make a cell span over multiple rows and now lets go ahead and learn how to do that and we will be using the table in which we make in the previous tutorial and if you guys didnt have watch the privious tutorial,just make sure you go back and watch that and what i wanted to dom is to actually make this caption part  of our table in the first row and make a cell that span all four coloum in th efirst row for that caption so let,s go ahead and do that
+to do that am going to start a <tr> and we going to rid of the <caption> tags
+<tr>
+  <td colspan=4>Best selling game world wide according to wikipedia</td> 
+</tr> and the next things am going to do is to creat a table data inside the <tr> and we noew want to make this ceel stand over a multiple column and if i refrsh this now and you can see we got this table data or table cell is now display in the first line and we got this other three column and we have nothing above them because we only have one degit number and it,s doesn't need to be as it,s right now  and am going to ggo ahead and add an attribute down here called <colspan=4>and we set that = to how many coloun we want this to span to and as we can see that rest of our cell have 4 rows and we will go ahead and set that to be 4 so that it will take the full width of the table as u can see we now have new cell down here that actually span all over the other column or we can discribe it as one actual cell that span over all other cells that is what coll span is use for and we can do the same thing
+except that is span over a multiple rows which is call rows span,so to do that am going to go back to html and what am actually goin to do here is table the <td> cell and am gonna cut that out and get rid of this rows and we don't actuallly need a blank row and what am going to do is to add that <td> in our first row example
+          <tr>
+            <td>Best selling game world wide according to wikipedia</td>
+              <td>Tetris</td> 
+              <td>1984</td> 
+              <td>143 milion</td>   
+            </tr>
+and get rid of the the colspan because we don't really need it now if i go back to fire fox  and refresh things are going to look alot more funny because we don we now this one cell over here so let's change that colspan because we dont actually need that attribute over there because we are not taking look at colspan again but we are looking at rowspan now and when we refresh this we can see we have this column over here and then our actual rank is out of place because and our numbers 1234 has disappear from the rank and our title has been disappear from main title to rank so every thing sifted over by 1 and what i wantd to actual do here is to make this cell span over multiple rows and to do that am going to back to the table over here in the table <td roespan>and we set that to hw many rows we want this our cells to span and if we take alot at our table we can see we have 5 rows that we want our cells to span and as you can se we now push everythingn to where it,s suppose to be so the rant now have number 1234 and the title contain all the title,release year contain all and copies sold as a copy and over here we have one huge words which contain our actual discription of the table and this is not actuallly the best way to do this and if u guys want to make a rowspan that span over a multiple cells then u use this fomular
+welcome to tutorial(43)styling tables
+so in this tutorial we have going to look on how to style our table and so i have actually gone back to my code introduction to table basically we have the same table as we had in  that vidoes which actually look like this
+<table border=1>
+  <caption>Best selling game world wide according to wikipedia</caption>
+</tr>
+ <tr>
+              <td>1</td>
+              <td>Tetris</td> 
+              <td>1984</td> 
+              <td>143 milion</td>   
+            </tr>
+we have the same table basically as usual which look like this now we are going to actualy start using css to style them in a css file and style the table so the next thing am oing to do is to actualy get rid of thius border=1 attribute and we can actually use css to actaully put our border and if i keep that for a moment you can see this our border is a double border one outside and the other wrapping against our cells likes it
+lines up in that duplicate borders so what we can do to get rid of that we will start with table
+table{
+  border:1px solis black;
+  border-collapse:lapse;
+}
+and as u can see all over border as now collapse and we now have a single border just like that and instead of having like that double border we now have a single border arround every cell and it,s actualy looks so much better and the next thing we can do is go back to css and like i say lets get rid of this borders and we can actaully add that border with css and if i go over to my table here and add a <border of 1 px solid black> so it,s just look like it,s was beforea dn when i click refresh and you can see
+it only has aborder arround our table and not inside the table so we still need to add a border to oue rank,title,release year and copies sold and our table cells and am just going to actually go ahead and grab our <table head> and you can see out <th> is with a comma because we had more that one tags at a time and so am going to place td eg
+th,td{
+    border:1px solis black;
+    padding:10px;
+}
+and we are just going to actualy add the exact same rulls and if we refresh this in chrome and everything will return to the way it,s was before,and something we might do now is to just increase the redability of this table and one thing that will make this table more nice is that we add some padding to this table inbetween our cells so let,s go ahead and add that and that is going to add some space to it in the border and actuall texts and when i save and click refresh and u can see and why a lot of space arround our actual wording over here and infact the 10px is probably too much maybe 5px
+but thid table is actually still blank and there is a lot,s more we can add to mmake this table  alots more readable and the first thing we are going to do is if we go back to html and they are few much tags we can add to the table and the first one is the table header tags <th> and we can actually group all this head into one big table head by add this tags over here call <thead> and am just going to copy all of them and paste it in the <thead> tags example:
+<thead>
+<tr>
+<th>rank</th>
+<th>title</th>
+<th>release</th>
+<th>copy sold</th>
+</tr>
+</thead>
+<tbody>
+ <tr>
+              <td>1</td>
+              <td>Tetris</td> 
+              <td>1984</td> 
+              <td>143 milion</td>   
+            </tr>
+
+</tbody>
+so am going to do is to sourround our entire table row with <thead> while the rst of the row can be the table body and there is also one other tags we place over here and it,s <tfoot></foot> of our table and i dont really have to place that but i will just go ahead and say 
+<tfoot>
+<tr>
+<td colspan=4>info from wikipedia</td>
+</tr>
+</tfoot>and we will just say ,a colspan=4 so that it,s span over the rest of the coloum and in the table and am just going to say here info from wikipedia just to give our tabel wikipedia and if we go ahead and refresh that and it,s not actually going to change the look of our table and we got this additional footer here and we can use css to style all this new tags we put in this table so for my
+thead{
+
+}i can just say i  really want this to have a background color of blue:#ccddee; and now my table head should have a background color of blue when i refresh it and for our footer we can go ahead and give it a color aswell and am going to back to out studio code and grab our footer
+foot{
+  background_color:#ddccee;
+  text-align:center;
+} and that is going to make it such of a purple pink very light color so now we have a diferent color for our tables our footer and we can actually center this text aswell and the last thing we are going to do is that we can style our body and actually give our body a difference color but am kind of fine having it as white and it,s would be nice if every second row in this table have a difference colour and we will go back to visual studio code maybe above that theader 
+because i don't want to over ride those style so i will put it above the table so i want to go head and crab the tr and the nth child if u can can the tutorual on the nth-child(2n) so i want to grab the second rows of our table to style them with color and that is what that 2n means example
+tr:nth-child(2n){
+  background_color:#a0a0a0
+}abd that is going to be such of a grey color and when we save this now and come back to chrome and click refresh and you can see that all our second rows is been style and when we go ahead and refresh this in chroime and you ccan see every of our second row is being style and you can  see that every of our second row is being style and our foot is like a kind of greey and we also centerr the text of our footer table or table cell and that is how to style table using html and css.
+welcome to tutorial(44)fprms and form element
+so welcome to tutorial 44 so in this tutorial we are going to be talking about forms and form element and what do we mean by forms is a basically an area that we can add in a form element in our webpage that allow us to gain data from the users in other words we can add a name section where the user can filled in their password and a password section where they can fill in their password and the reason why i live this tutorial up tot this series is becuase form are actually tied with javascript or php or any other forms of scripsting lanquage because 
+we can actually use the data that we get from the user,s unless we are using a scripsting language because html by it,s self doesn't have the ability to handle data but as soon that we use javascript and php we were to handle it and actually do stuff with it in a data base or email that send data to some one on email or something like that and that is just an introduction what i call forms and lets actually get started and first things we needed to do is to add a forms intyo our webpage and to do that we simply open up a new tags calls <form> and we can end that aswell and we will the rest of our forms element but before we even get started or adding 
+other forms element intot this form and i want to menetion to you guys that they are other two atribute that we have to place in the opening tags of this form and now the first atribute is called action and escon action is call  method are require because  the first atribute action is basically asking where do you want to send the data to from this forms and in other words you can place the url of a file i hope it a smart file like php files or something that will actuall handle the data that are in this file and in the second atribute here is the method and method is basically asking how do you want to send from this forms to the action page and now they are only two different method that we can use the first one is post  which kind send data from the background
+it,s a no where the user can see it so it,s a lot more secure so you are able to send alot more data through to our action page and there is another alternative to that we can use is <get> and unfortunatly get is not the best secure method to use so in other words if i were to run this in fire fox so get actually send the data to the top of the url so in other word let say i filled in my name then we might something like name=isaacpraize appearing towards the end of the url and it ok to use get in some case and in other case it,s ok and you will notice sometime when when u make a search and ur search will just appear on top of our url so google is using get to serch for your words
+<form action="" method="get">
+</form>
+or use your get method to actually send your data to the next webpage like i say this action is actually where you want to send your data to so you can specify another file in here in the action tags eg action="index.php" so right now i actually made this spage so am going to just leave it blank and what this is mean each time we leave our page blank and anythime we leave our url will summit our data right back to the index.html and unfortunatly we don't have any scripting to handle the data and we are not going to do anything with it so like  i say this is not a scripting tuttorial this a html tutorial
+so we are just going to to take alook what all  the tags can do,so in the next video i will start talking about mor forms tags and atribute.
+welcome to tutorial(45)text and password fields
+in this tutorial we are going to learn about hw to make text and password so the textfield that is what we are going to handle first and that is the text boxs and we can put any information we want and ba able to see the infomation we that we are typing wereas if we are trying to use a password firld and it make bullet point but this two field are very smilar they are almost the same with exception of the password field having those bullets point hiding in the character,so lets take alook on how to creat this fields and we are going to start by creating an element call <input>and this actually a single tags element and we are going to go ahead and closs this with our closing slash but this input element actually take a view attribute and first attribute is the type="" and the reason why we have to specify a type is this attribute can be render as one of many
+element and because we want this to be render as atext field we gonna give this as a type="text" and am going to go ahead and give this a view other attribute and another one is <name="" because when ever you want to send the data  from this input element to the server so the server need some where of identifying what information came from this element and the way by doing that is by looking at the name and if you want to give this a name you can go head and give it what ever name you want we can actually give this a name that is meaningful lets say you want to give it the name that in this input element so we can actually go ahead and say name as a label just before her as a label and that will prompting the user for the name and we might actaully want tot give this an input of name or lets say we are asking for the username a name or a username and it,s should be corresponding from what we are expecting from the user
+<form action="" method="get">
+username:<input type="text" name="username"
+</form> 
+so lets go ahead and run this in firefox and you can see that it,s appears just fine and i can just go ahead and fill in my user name and it appears and right now we can use go ahead type a whole lot of words and it will just keep going and let say i wanted to give this a limit like a 30 character well we can do that with atribute and i can go back to my visual studio code over here and i can go ahead and give this an attribute of< maxlenth="10"/> and that mean i will be able to field in only ten character and if we go ahead refresh this in chrome and watch what it going to happen look am typing but after our ten element but it not going through and that is how the maxlenth attribute work so let get back here and give this another atribute called <value="name"/>and value actually determine what the default vale is going to stand for in this input element lets say i give this a value of name
+and when i save this and refresh in chrome the default value show the value that u place in this value element:name and i want to go ahead and get rid of that i dont thing u  actually need that and there is no point of placing a value element in this because u want to use it to fill a value and rhw last atribute am going to speak to you about is call size and we will go ahead and start this atribute and basically what this size is all about is how long you this input to appear so right now it,s still at default but lets says i wanted the size of this input element to be <size="100"/> and that mean it,s going to be 100 character long but not px or anything like that but actuall character like that you can fit inside of this actual input element lets go back and click refresh and now as u can see it,s much bigger so that is the size of 100 and example i make this like 10 characters it,s will be much smaller so let go to chrome and click refresh and then you can see it,s much smaller the 10 characters
+and i go in and type in those characters and that actually fit in our 10 characters perfectly and you might be wondering we 7 minute in the video we have not nyet touch the password field but like i say the password feild is pretty much the same as text field so we can go ahead and if i go ahead and duplicate this and i can actually go ahead and asking the user for their password and then they are filling in their password but this password field can take on their same atribute and the name could be password you obviously the name have to be unic maxlegth and size cpuld be the same and actually you might want them to look the same and obviously they look the same and the only difference that we have is the type that we are going to add to password and what that is gonna do is to just make bullet point appears when we start typing so now that we have savre that lets go back and refresh this in chrome
+<form action="" method="get">
+username:<input type="text" name="username" maxlenth="10" size="10"
+password:<input type="password" name="username" maxlenth="10" size="10"
+</form> 
+and lets save this and refresh it in chrome and as soon that i fill in our password and you csn see it,d spear as a bullet point
+welcome to tutorial(46) select list
+so in this tutorial we are going to be looking at select list and you guys may know them as a drop down list what every they are call they are the same thing so let,s go now and add a select list into our page and the way we are we going to do that is by opening a tags call <select></select>amd now we have a selct list on our page but it,s completly blank so we are not going to see anything and first thing we are going to is maybe we can just give a <select labels="">to this select list so that the users knows what they are tryin to select 
+<form action="" method="get">
+pick a food
+<select>
+<option></option>
+</select>
+</form>
+and even though i type this in multitple line it,s still going to appears in one line this is just for redibility and now we can actually go ahead and ask the user for a food and the way we are going to do that is by giving them some options and we have to ahead and open ups and options tags and we will go ahead and close that option tags,so this like a basic structure for a select list,and if we selct this and w are going to have a multiple tags and before any futher i do want to mention that they are some atribute that we really need to have other wise this isn.t going to work and the first thing we are actually going to do is to actual give our select list
+a name because wjen eevr we are going to send data from the selct list to the server or through to another webpage we need somewhere of by identifying the data we need to identify which of the options was choosing by the users and the way we gonna do that is by giving our select list a name and so am going to give this a name of food and each of our options have to have a value and the value have to be different for each options and infact it,s should be different for each options and what ever we type inbtween our two options that what the user  sees lets say we asking the user to select some food over here so lets give them a food to select and i think we can start off with potato chips and like i say this is what th users sees and we are still going to give this  a value and so that we can send that value to the server and actually fine out over there what the user has selected and so we will actually go ahead and give this the value of <potato_chips> and that is our first options
+<form action="" method="get">
+pick a food
+<select name="food" multitple size="5">
+<optgroup label="salty food">
+<option value=""potato_chips>potato chips</option>
+<option value=""popcorn>popcorn</option>
+<option value=""peanuts>peanuts</option>
+</optgroup>
+<optgroup label="hot food">
+<option value=""nachos>nachos</option>
+<option value=""pizza>pizza</option>
+</optgroup>
+</select>
+</form>
+and now we actually have each option as a value and we will be able to tell on the other side and who ever we will be sending the data which ever one of the option that will the selected by looking at the value and the user will be able to see what ever option we are selecting by looking at whatever is title here potatos potato_chips ,popcorn,pizza etc so if we run this in chrome and we should get a list that look like this and we can see that we have a drop down and various kind of food and now we can go ahead and select what kind of food we desire and i wan to actually go back to visual studio code because they are view nmore code that i wanted to show you so that we can add into our select list just to make things aprear a little bit differently  and the first thing i wanted to show you is how to make something apear as a defualt so remember potato chips was the first selected iteam by default because that was the first options and lets say i wanted penuts to be the first selected iteam by default
+and i will just actually go ahead and <selected="selected">atribute and that mean this peanut is being selected to the option by defualt and wheni refresh thjis and you can see that peanut is now showing as the option that is selected by default and there two more atribute that i want to speak to you guys about and if we go back here the first atribute i wantd to speak to you guys about in the open select tags and this is called multitple and we don't have to set that equal to anything and what this multiple allow us to do is to show more than one options at a time and when ever we are using this multiple so what this allows us to do is to show more than one options at a time and when ever we are using this multiple atribute we need to decided like how many options do we want to use or see so we need to give this a size and that is the second atribute  that i want to speak to you guys about and the size we can set it to a number values of <size=""> of how many option that we want to show the users
+and lets say i set the <size="3"> equll to three and when i svae this now and run it in chrome and our drop down list isn't dropdown list anymore but a scroll list and defualt has selected peanutand we can go ahead and choose other element by clicking contol and other on more than one iteam and i have three food selected and whyle the rest three are not selected and if you want to unselect them just control click again and i could go ahead and change this size to 5 since i got 5 different option here and basically what that mean it will be showing all the options at ones so there is no need to scroll anymore and we are showing all 5 option all at ones here and there is no drop down and you knoe it,s not a drop down anymore but a select lists and that is almost everything but ther eis one more things that i want to show you guys and that is another element that we can put inside our select list and that is an options group so we can group our option and so am just going to ahead and divide this option into some group real quick
+and the first one can open up and option group tags eg<optgroup label="salty food">so since chip,popcorn and peanut are salty we can just go ahead and label it salty food so lets go ahead and end that and we can do the same and we will give it a label="hot food"because pizza and nachos are useful hot and if we go ahead and refresh this in chrome and we have this header over that explans to us the varous section of food we have in our menu or optiongs tags
+welcome to tutorial (47) checkboxes and radio buttons
+so in this tutorial am going to be talking to u about check boxes and radio buttons and i think most you should have known what check boxes is all abot check boxes is one of those boxes that if you click on it it is check and if you click on it again it is uncheck so it,s quiet simple and the radio buttons is prety much the exact same way exect that a radio buttons can only have one of the button selected and where as a check boxes can have many options selected and we will get into that in a moment or later on in the tutorial but for now lets actually put some check boxes on our pages so we are gonna have to ask the user question and it,s could be a questions that require multiple answers or multiple choices and lets say i ask the user what do you most like to do in your spear time and we could give them a couple of option here and by puting a break tags over there<br/> and we can say play sport and that can be a check boxes and this is how to add a check boxes to our webpage <input type="checkbox">and this will make sure that our input element is actually rended as checkboxsa nd then as usual we have to give our check boxs a name so am going to give this a name of eg
+<form action="" method="get">
+    what do do in you spare time?<br/>
+    play sport<input type="checkbox" name="spare_time[]" valaue="sport" check="checked"> 
+     play computer game<input type="checkbox" name="spare_time[]" valaue="game"> 
+      shopping<input type="checkbox" name="spare_time[]" valaue="shopping"> 
+   </form> 
+    and the reason why we give every checkbox a name is because we are sending this value back to our server we want to send through a name to identify the value that was check and in the case of a checkbox we might often send through more than one,so you might especially in the cast of php you see people giving their checkboxes a name that actually has a little square bracket here on the end and that actually deal with programming so am not actually going to cover that but you might actually see that happen some time so you know just to take note of that so we will sent through  aname of a sprare time so what do we want to send through as a value well a values we goona put it as an atribute and a value is basically what we are going to send as a programers or as a designers back to the server and the user get to see this part they get to see that they are taking the option for playing sport but we get to deside on what we are to send back and this is a little bit diference to text boxs and as you guys can remember the value for text boxs actually will determine the valuse that is going to be display inside the text box so this is a little bit different to that
+    and we will just give this a value of sport and we can probably it right there and that is one option and lets go ahead and make view more and now if we wanted all this things to the server like this we might want to give this a difference name and will be doing something like this we will use the same name but we will put ib those square parentesis and in this basically all is determine by what server or scripting lannguages you are using it,s may be php or pathon and it,s also depend on the what the programmer will like is name to be and you might aswell fine out from whenever you are name your element of lets go ahead and refresh this in chrome and you can see we now have a question and and our select buttons or multiple check boxes we can just send two or all three and we will be fine and the users can decided to send to no value at all and we might deside that we want something to be check by a default and so when ever you want an options to be check by a default you can add this atribute which is <check="check">and this will basically tell html or tell the broswers that this option need to be check by a default and that mean when ever the user refresh the page the the select button will be selected by default
+so nbow we have to talk about check boxes we want to move to radio buttons but we will at least two break tags here to get a space btween our check boxes,so now radio button can only have one options check at a time so when ever we give radio buttons together we have to give it the same name,so that the broswers will know they are all part of one group and that is also how the broswers will know only on of the broswer it,s suppose to be check,so lets put some radio button to the page and in order to do that let,s just go ahhead and ask a questions eg do you play leaque of legends?<br/> and so when  adding a radio buttons to our webpage it,s we have to start that with a question and we can do that too in our php tutorial and in we can go ahead and give it an option of yes 
+yes<input type="radio" name="plays_lol" value="yes">and get  in mind that this work exactly like check boxes we deside what value we want to send to the server and when ever the user users ticks this value we know that we sending through the value yes to the server because the user is going to see this word over here yes and it,s going to send with a name plays_lol and we also going to give them an option to say no and we are going to change the value eg
+yes<input type="radio" name="plays_lol" value="yes">
+no<input type="radio" name="plays_lol" value="No">
+and make sure the name are the same because if it,s diference it,s maylead to us selecting more than one names and radio buttons are made to have one ticks so lets go ahead and refresh this in fire firfox and as you can see we now have this question here do you play leaque of legenss and the users can either chose yes or no if we click yes then no is not check and if we choose npo and then yes is not check so we can only have this one at a time and again if you  want your website to check by default all we nned if to add a <check="checked">tags to it and if we go ahead and refresh it and when ever the user first refresh it,s page that yes buttons is selected an if i want to be 100% sure i will go ahead run this in chrome and again.
+welcome to tutorial(48)-text area
+so in this tutorial we are going to be speaking about text area element that you can add to your forms and if you guys doesn't understand what the text area does is a basically that big blog or a typing space that we can type a whole big text or message into like an email or even na youtube comment or something like that it,s basically give us a big space to type in something rather than an input of text and to get started lets go ahead and add this text area tags to our page all we need to do we will go ahead and add <textarea name=""></textarea> and the reason we always give a name to all our input element is when ever the users fill in data into  this text area we need some where of identifying data and we are going to identify that by the name we are going to give to this text area so am going to give this text area a name of story because am going to ask the user,s to tell me a story 
+tell me a story<br/>
+<textarea nmae="story" rows="15" cols="60"></textarea> so if we go ahead and refresh this in chrome and we get this question with a this text area blog here an dam going to tell you about two other atribute we could palce into thi text atribute and both of them are actuallly for resizing text area and you can see we can resizes it and make it alot bigger and as a default when we refresh it the text area apear to be small and if we go back to visual studio code and we could add in two other atribute 
+and rows are basically how you want the text  area to be and colons  are basically how wide you want the text area to be but this is not a measurement px and actually the measurement of characters and right now if we take alook at our ttext area without refreshing i can add in 123 and by default our rows is 123  by default and our colons 22 and if we refresh we will actually a biger rows and colons here and we can also use css to reduce thre hight and the width of this text area so in our next tutorial we will speaking about all kind of buttons that we can use so come back for that
+welcome to tutorial(49) buttons
+so in this tutorial am going to talk to you guys about all diferent forms of buttons that we are going to be able to use in html so there is a quiet a few that we are going to get through in this tutorial and am going to start with an playing buttons that doesn't do anything until we use a javascript  or some kind clint scripts lannguage to add some event to that buttons in other words to make that buttons do something so to add a button to oue webpage we will add an <input type="buttons" and the tags render here and am also going to give this a value and the reason am going to give this a value is because the value determine what shows up here like in the pass that value represent like the actual information store in that element with the button that is in the case with the button anytime you are working with the value this is going to be what ever is display <input type="button" value="i am a button"/>so if i go ahead an drefresh this am going to have a button that says i am a button and when i click on it apsolutely nothing happen so are this made more for javascript and if you are ussing javascript and you want to click on something it to activate some soth of funtion or code then you can go ahead and do that but if the user isn"t going to be clicking on anything we are going to be using science glass scripting language
+so the next button am going to be showing you is the button we are going to click to upload a file and it,s doesn't actually have a type of button and am going to give this an <input type="file"> and this is going to render as the button that we can click to upload a file so am going to save this now and go back to chrome and refresh this and as you can see i have my second buttons over here next to the prvious buttons that says no file selected and if i go ahead and click browser button it,s take you directary to your file section and there we go i can upload that file and this is gonna be difference because we are not going to change the words that are going to apear so we are not to work with a value or anything like that but what we could do is to work with the size and you could make longer than it should be and we can go ahead and put in a <size="50" of 50  and well we just to extended the word over here and make it longer and if we increase this size over here because if we have a really long file name our we file nmae will just apear at the centre for that size of 50 , so am just gonna live that blank,so in the first line we are go ahead and add a <br> tags to it for a display purposes and everything amd evrything apear in a new line and the next button am goignt to show you guys is
+<input also an input and we will go ahead and give that a <type="summit"> of summit and to be horness we are going to add the same buttons at the same time<value="summit"> so let give this a value quickly and a summit buttons is the buttions that you click on to say ok i am finish filling this form i wan to send the data back to the server and that is what summit buttons stands for and  the next thing and the next buttons am going to add in here a real quick is going to be a resets buttons so we will just copy that and paste it  and a reset buttons actually reset the forms<input type="reset" valule="reset"/> and we are going to take a look at this two buttons in  a moment but there is something i will like to do here so let,s click refresh and right now there is no data to summit to and we dont have any forms element to reset to so this to element are not going to do anything for us just yet but let,s go ahead and actually add some more element to our page so i think we can just go ahead and comment this buttons out or lets just delect this there's no point spo lets just go ahead and add a file element to our pages so lets take alook at what this sumit and reset buttons do,so we can go ahead and fill our forms and now we now habe to data fill in our forms and now what happen if i click resets well all of those data get resets or get delected and the forms appear as if it,s had never be filled before
+so that is what the reset buttons does but if i filled it again and click on the browsers and just select a file and when i click sumit and you will know the webpage will is actually goignt to refresh real quick and it,s ask me maybe i wanted to save the password and what actually happen is that i send all those data that  i filled in this forms back to the same page,  so remember when i speak to you guys about the action and methods well that,s comes into play here because when ever we click on that sumit buttons and all that data get send back to whatever page was in our actions and because we left our actions blank and all that information got send back to this pacticular page and well you might be asking well where is it,well because we send that data though the get method we can actually see all that data and if you take a look right up here in the top of my url or at the end of my url i now have a name and it,s says username = to isaaco and password and food=nachos and actually the name of my name or the name of my text input happen to be name so you can see ad i filled this name isaaco i send through name of names  and that is a value of isaaco and my password and my password is word and i type in the i type in the value of 12345 so i  send through the value of name of password and a value of 12345 so that is how a form can be a little bit of a mystry.
+welcome to tuttorial(50) labels and field sets
+so this tuttorial actually talk about labels and field sets and you guys will know i have already have some forms element in my forms so am not starting from the chrash in this tuttorial what i did here i just put in a personal info in our forms element and instrument as the user for the first name and last name and there input element for type text  and there is an input eleemnt of type for both of them and i have give a hobbies section where the user can choose between sport,gaming ,acting and arting as a hobbies and if i go ahead and run this in fire fox so this is what i got personal info and i cn filling the first name ,last name and choose what ever hobbies i wanted and i can click summit but now the reason why i group everything like this is  because i want personal info to be under one big group and the way i can do that is by using a filled sets so what am going to do is to actually sorround this blog with a filled set tags and am going to start that her with a field srt tags<fieldset> and i will end that with  fieldset
+<fieldset>
+<legend>personal info</legend>
+rrrrrrrrrrrr
+ttttttttttt
+aaaaaaaaaaa
+</fieldset>so now i actually have a fieldset and i can go ahead indent that and the next thing am going to do is to change that personal info because i don't just want it to be plain so i will go ahead and add in a legend to it and so when ever you are using a fieldset u can use to determine what data need to go in in that fieldset so basicallly this legend is like a header but it,s doesn't get bolded and if i go ahead and refresh htis and u can see in our personal info you can see this big border rounding it so the legend appear on top of this personal info and i other word,s the legend is like a header but it,s doesn't bold it but not really but because it,s not bolded but it,s kind of just tell you atless what information needed to be field in this blogn and we can do the samething over here with our hobbies so am going to go ahead and do that and we will get that fieldset over the hobbies and beneath the hobbies
+<fieldset>
+<legend>hobbies:</legend>
+wwwwwwwwwwwwww
+wwwwwwwwwwwwww
+wwwwwwwwwwwwww
+wwwwwwwwwwwwww
+wwwwwwwwwwwwww
+</fieldset>and we got another event tags aprearing in our hobbies so this is nice if you are just organising your forms to look alot more tiddy  and the you can go ahead and add a fieldset or bunch of fieldset instandly and it,s look alot more tiddy and it,s look easy to read and you can use css later on to actually style this and to improve upon the looks and even better looking and now we can actually start talking about labels and as you can see now i am actually started using labels next to my element over here but i didn't include them in a labels tags and you guys will notice that througout my tuttorial that i didn't put any tags arround the words in front of my input element  so it,s will be probably be better if i sorrounded them with a lebels tags eg
+<label>first name: </label><input type="text" name="first name">and it,s will be probably be nice if i sorround my elemeent with  <lable> tags and if we go ahead and refresh it in chrome no change because a normal label tags can't make any  visual changes so right  now you can see i have got my first labels tags and if i save this and run it in chrome and you can see nothing change and the first name didn't change but it,s usefull to have this name sorrounded by labels tags because we can use that labes tags later on and style it to be exactly the same size and all our labe will be the same size and therefore we will make our forms looks more tidy and beautiful and if you take alook at this forms element closly by zooming it and you can our text element is in this forms element and that is a kind of anoying and it,s dosen't really look a lot,s more tiddy and we can go ahead and use css to style this label element or tags so am gonna do that in the next vidoes so ig you guys want to see that so come back tot the next video
+but we have not finish yet becaus they are still other attribute that i want to talk about that goes in this label tags so for now lets just go ahead and place all our lables into an actuall labels tags so i will coppy this and try and paste everything as fast as i can
+ <legend>personal info:</legend> 
+           <label> firt name:</label></label><input type="text" name="username" maxlength="10" size="10"/><br/><br/>
+        <label> last name:</label><input type="password" name="password" maxlength="10" size="10"/> and save that like i say before it,s doesn't display any visual changes so i don't need to refresh this in chrome until we style it in css but i want to talk to you guys about and atribute for a labels tags which is catually call <for="">and what this artribute does is it,s will link our labels to what ever element this label was meant to be link to and for now this first name should be link to this  <label> firt name:</label><input type="text" name="username" maxlength="10" size="10" id="first_name"/> and the way we can actaully links this to tags is by is if i put in some information in this for="first_name"atribute and am goignt to say this for="first_name"but whenever i do this i ahve to link tot the id of this<label>fisrt name:</label><input type="text" name"fiest_name" id="first_name"/>    element and now we don't actually have a id so i will go ahead and add an id to our webpage and dont worry that this has a name of first name and an id of first name that is ok because the names is what get send through
+ on the url or in the post starter or when ever this fform is summited but the id is more for in broswer stuff they can't be both the same it,s doesn't mattern their intend purposes so what am going to do is to just go ahead and add in this for tags to the rest of the labels element so am going to post the recording right here eg
+      <legend>hobbies</legend>
+            <label for="sport">sport</label><input type="checkbox" value="sport" name="sport" id="sport"/>
+        <label for="gaming"> gaming</label><input type="checkbox" value="gaming" name="gaming" id="gaming"/>
+    <label for="art"> art</label><input type="checkbox" value="art" name="art" id="art"/>
+<label for="acting"> acting</label><input type="checkbox" value="acting" name="acting" id="acting"/> and am back and you can see a quiet alot of changes so what i did i just added this for atribute to everyone of my lables and i also give all of my labels an id and i also forget that i shouls have giving all of my checkboxes a name so i go ahead and dobne that too and now lets go back to chrome and refresh this and as you can see this 
+adding up all this element didn"t change anything in a visual appearance but lets take alook at what happen when i click on this label now and when i click on my first name now my cusur now  get forcus on this first name text element and i can start typing and if i click on the labels spots and my sport box get ticks and same things with the others and what happen and why that happen is because we got this four attribute in our labels ok lets say i want to take this four atribute out of our element so lets go ahead and run that in chrome and see and if we remove the for="" tags from the our two lable element so when we run this in chrome u can see that if we click on the our label element the box will be mark fotr those leemnt that have ethe for="" element and those without the for="" element nothing will happen so that is one nice feature of having and the user can click on the label it,s self and get centre for typing for the element that it,s was meant for
+welcome to tuttorial(51) styling forms
+so in this tuttorial we will be taking alook at styling forms and by styling forms am not talking about forms of styling no no but am talking about how to style our forms element because we have not done that yet and that is something we have to look at over the course of this view tutorial,so am what i got here is forms and i have already pupolated my forms already or giving my forms a whole lot,s of element before we strated but don't worry it,s not going to be exstreamly difficult like that,it,s basically a whole bunch of labels with some input types of text so it,s wouldn't take you guys long to copy bit it,s also and i have also provide a link where you guys can download the code or something so lets go ahead and actually take alook at this and we can go ahead and style this in  css and all this input element actually appear nice and inline or line up nice up to each others right now seeing them like this wave kind of pathern look kind of untiddya and ugly and my option
+  <p>
+                 <label for="user-name">user name</label>
+                 <input type="text" name="user_name" id="user_name">
+             </p>
+             <p>
+                <label for="password"> password</label>
+                <input type="text" name="password" id="password">
+            </p>
+            <p>
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="city">city</label>
+                <input type="text" name="city" id="city">
+            </p>
+            <p>
+                <label for="address line 1">address line 1</label>
+                <input type="text" name="address line 1" id="address line 1">
+            </p>
+            <p>
+                <label for="user-name">address line 2</label>
+                <input type="text" name="address line 2" id="address line 2">
+            </p>
+ so lets go ahead and cheek this paragraph we have a our label and i also have my input type of text and my first name and basically you can coppy that post and paste it down a few because we understand the moment like address line and line 2 they pretty much the same 
+ just put unic name and unic id for each of them so that is pretty much the end result for the broswers and but what we really need to do now is to style this so that all this input element can actually aprear nicely inline or line up to each others and saming them like it.s look not tiddy and urgly and we gonna fix dat with some styling rules i got some labels in this fieldset over here and we also have another fieldset at the bottoms here and with hobies that also have a labels for the check boxes and i don't want to 
+ accidently style any of this label for the check boxes and lets go back to our visual studio code and i will grab this <fieldset class="personal_info"> that has a legends of personal info and am going to give this a class="personal_info" so we will just go ahead and save that and go to css and style it  and go ahead and select that class
+ .personal_info label{
+
+ } and i don't actuall want to select this element what what i really want to do is to select the labels inside of the field set with this class and to do that we can go ahead and leave a space over here and type the words label and that is going to select all the labels elment inside this personal_info class,ok so what are we going to do here is to just give each one of those labels and we f]
+ and we will give it a width: 100px; and what this should do is to make all of this labels shoild be desame  when i save and refresh it in chrome ans a you can see all our labels are arrange in the same width and line and they all nice and lines up and it look a lots more tiddy and something elese we can do here is to just give this a margin or aligning up text to the right and i prefer having my text align to the left and some people like to text align to the right and i will show you what this effect give understand
+ if we align to the right and it,s basically means all our labels will appear next to our element and we have this wide open space here in which i prefer to have it align to the left and then you don't have that wide open space and if ypou going to align you label to the right like this you might want to give it a margin-right:10px; just to add that extra little bit of space between our element and if i click refresh we now have that space but like as i said i prefer having mine float tot eh left,it,s my opinions and it,s look better that way
+ .personal_info label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+and some thing else we can do is to go over to our css file and select our fieldset and if you can take alook you will that our firldset take over the entire brwsers so we will go ahead and style and make it alitte bit modrate and our data inside here it,s isn't even wilder than 3oopx or 320px so we might even have to go ver to firldset
+ and it a width:320px; and that should make the width alots more smaller ad if we go ahead and refresh that in css it,s probably look alot better so the we don't have all those unnecessary space in our website and honessly we will put this input element in another form that we can use to cntre it in the middle of the page or something like that and w have already made a tutorial on the that so if you guys want to learn about it look back in the previous tutorial on how to centre a part of your webpage and another thing we are to do if we really desided
+to give our fieldset some background_color:#81d4fa and we can give it like a very light blue color and then we have this color #81d4fa here and if we go to firfox and refresh we have this really light blue color and so we can also get all our firldset legend bolded and we can go head and grab this legend tags inside our fieldset element by typing firldset legend and changing the background_color wasn't that a great idea lets just go ahead and get rid of that. 
+so that is the end of 
+
+our html and css tutorial.
+
+
+
+
+
+
+
+
+
+
+
+
+  
+                                                                                                                                                                 
